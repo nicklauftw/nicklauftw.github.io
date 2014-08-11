@@ -3,6 +3,9 @@
   src: url('dos.ttf') format('truetype');
 }
 
+::selection { background-color: #222; }
+::-moz-selection { background-color: #222; }
+
 html {
   font-size: 125%;
 }
