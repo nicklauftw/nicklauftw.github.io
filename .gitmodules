@@ -1,0 +1,3 @@
+[submodule "iwanttoworkatcarbonmade"]
+	path = iwanttoworkatcarbonmade
+	url = git@bitbucket.org:nicklauftw/carbonemade.git
