@@ -3,8 +3,15 @@
   src: url('dos.ttf') format('truetype');
 }
 
-::selection { background-color: #222; }
-::-moz-selection { background-color: #222; }
+::selection {
+  color: #71EEB8;
+  background-color: #222;
+}
+
+::-moz-selection {
+  color: #71EEB8;
+  background-color: #222;
+}
 
 html {
   font-size: 125%;
@@ -32,9 +39,13 @@ footer {
   background-color: #71EEB8;
 }
 
-a, a:hover, a:visited { color: #ffff66; }
+a,
+a:hover,
+a:visited { color: #ffff66; }
 
-li { margin: 10px 0;}
+li {
+  margin: 10px 0
+}
 
 .container {
   margin: 0 auto;
