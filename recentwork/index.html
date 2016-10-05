@@ -1,0 +1,392 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous"> -->
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body, html {
+            margin: 0;
+            font-family: sans-serif;
+            color: #222;
+            background: #f5f5f5;
+          }
+
+          body {
+            padding-top: 0;
+            padding-left: 0;
+            padding-bottom: 2rem;
+            padding-right: 0;
+          }
+
+          h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+          }
+
+          h1 {
+            font-size: 3em;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: -.05rem;
+          }
+
+          p {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.4;
+          }
+
+          p:not(:first-child) {
+            margin-top: 1rem;
+          }
+
+          .heading-desc {
+            display: flex;
+            align-items: center;
+          }
+
+          .heading-desc--socials {
+            justify-content: flex-end;
+          }
+
+          .heading-desc--socials > a {
+            color: #222;
+            text-decoration: none;
+          }
+
+          .heading-desc--socials > a + a {
+            margin-left: .5rem;
+          }
+
+          .container {
+            width: 90%;
+            max-width: 1140px;
+            margin-left: 1rem;
+            margin-right: 0;
+          }
+
+          .header-row, .row {
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            background-color: #fff;
+          }
+
+          @media (max-width: 768px) {
+            .header-row {
+              flex-direction: column;
+            }
+
+            .heading-desc--socials {
+              order: 1;
+            }
+          }
+
+          @media (max-width: 969px) {
+            .container {
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            .row {
+              flex-direction: column;
+            }
+          }
+
+          .row__item {
+            margin: 1rem;
+          }
+
+          .row__item--2 {
+            flex: 2;
+          }
+
+          .row__item--3 {
+            flex: 3;
+          }
+
+          .row__item--5 {
+            flex: 5;
+          }
+
+          .sample-images {
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+          figure {
+            margin-top: 0;
+            margin-right: .5rem;
+            margin-bottom: .5rem;
+            margin-left: 0;
+            padding: 0;
+            width: calc(50% - .5rem);
+            border: 2px solid #f5f5f5;
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+
+          .lightbox {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .33s ease-in-out;
+          }
+
+          .lightbox__close {
+            display: block;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: .5rem;
+            font-size: 1.75rem;
+            line-height: 1;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #fff;
+            color: #222;
+            border-radius: 50%;
+            text-decoration: none;
+          }
+
+          .lightbox__wrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, .25);
+          }
+
+          .lightbox__wrap > img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 75%;
+            height: auto;
+            box-shadow: 0 8px 6px -6px #444;
+          }
+
+          .lightbox:target {
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            opacity: 1;
+            transition: opacity .33s ease-in-out;
+          }
+
+        </style>
+
+    </head>
+    <body>
+        <!--[if lt IE 11]>
+          <div class="ie-box">
+            Yo, fo real? Upgrade yo browser or use a better one.
+          </div>
+        <![endif]-->
+
+        <main class="container">
+          <header class="header-row">
+            <div class="row__item row__item--2">
+              <h1>Recent Work</h1>
+            </div>
+
+            <div class="row__item row__item--3 heading-desc">
+              Some neat stuff I did the past few years, starting with the freshest
+            </div>
+
+            <div class="row__item row__item--5 heading-desc heading-desc--socials">
+              <a href="http://nicklauftw.com">
+                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="mailto:nicklauftw@gmail.com">
+                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="http://twitter.com/nicklauftw">
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="http://instagram.com/nicklauftw">
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+              </a>
+            </div>
+          </header>
+
+          <section class="row">
+            <div class="row__item row__item--2">
+              <h4>Label Insight</h4>
+            </div>
+
+            <div class="row__item row__item--3">
+              <p>
+                I'm a Front End Engineer on the product verification
+                team, where the users are presented a grid view
+                of their respective products in different states of
+                the workflow. The workflow process is an individual
+                product that is ready to have its data verified, in progress
+                of verification, verified but needs data fields to be resolved
+                and finally, verified and published.
+              </p>
+              <p>
+                Before being assigned to the product verification tool,
+                I primarily led the HTML & CSS refactor of the redesign of the
+                Label Insight app and built clickable prototypes of the product
+                verification tool as it matured from an idea that needs to be
+                validated to a full fledged product that could be sold to customers.
+              </p>
+            </div>
+
+            <div class="row__item row__item--5">
+              <div class="sample-images">
+                <figure>
+                  <a href="#labelinsight-login">
+                    <img src="images/labelinsight-login.png" alt="Label Insight Login Screen" />
+                  </a>
+                  <div class="lightbox" id="labelinsight-login">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/labelinsight-login.png" alt="Label Insight Login Screen" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#labelinsight-tiers" title="expand">
+                    <img src="images/labelinsight-tiers.png" alt="Label Insight Product Tiers Screen" />
+                  </a>
+                  <div class="lightbox" id="labelinsight-tiers">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/labelinsight-tiers.png" alt="Label Insight Product Tiers Screen" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#labelinsight-explore" title="expand">
+                    <img src="images/labelinsight-explore.png" alt="Label Insight Explore Screen" />
+                  </a>
+                  <div class="lightbox" id="labelinsight-explore">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/labelinsight-explore.png" alt="Label Insight Explore Screen" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#labelinsight-myproducts" title="expand">
+                    <img src="images/labelinsight-myproducts.png" alt="Label Insight My Products Screen" />
+                  </a>
+                  <div class="lightbox" id="labelinsight-myproducts">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/labelinsight-myproducts.png" alt="Label Insight My Products Screen" />
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <section class="row">
+            <div class="row__item row__item--2">
+              <h4>Cleo Communications</h4>
+            </div>
+
+            <div class="row__item row__item--3">
+              <p>
+                As a Front End Developer for the Unify & Trust product, I worked under the direction
+                 of the User Experience director and alongside with a visual designer to build the layout of the
+                 application and alongside other developers to build the interactive functionality of it.
+                 I occasionally served as a designer to adjust content as needed or the interactivity of a feature
+                 to account for various states that an app can have to the user (loading, success, failure, input required).
+
+              <p>
+                Unify is an Enterprise File Sharing & Syncing app with drag 'n drop and browser push notification of uploads features.
+                Trust is a communication app that combines the worst features of e-mail & chat into one and best described as a solution seeking a problem.
+                May both these products RIP.
+              </p>
+            </div>
+
+            <div class="row__item row__item--5">
+              <div class="sample-images">
+                <figure>
+                  <a href="#cleo-login" title="expand">
+                    <img src="images/cleo-login.png" alt="Cleo Login Screen" />
+                  </a>
+                  <div class="lightbox" id="cleo-login">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/cleo-login.png" alt="Cleo Login Screen" />
+                    </div>
+                </figure>
+
+                <figure>
+                  <a href="#cleo-ui" title="expand">
+                    <img src="images/cleo-ui.png" alt="Cleo UI Screen" />
+                  </a>
+                  <div class="lightbox" id="cleo-ui">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/cleo-ui.png" alt="Cleo UI Screen" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#cleo-upload" title="expand">
+                    <img src="images/cleo-upload.png" alt="Cleo Upload Screen" />
+                  </a>
+                  <div class="lightbox" id="cleo-upload">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/cleo-upload.png" alt="Cleo Upload Screen" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#cleo-add" title="expand">
+                    <img src="images/cleo-add.png" alt="Cleo Add User Screen" />
+                  </a>
+                  <div class="lightbox" id="cleo-add">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img src="images/cleo-add.png" alt="Cleo Add User Screen" />
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <!-- lol at embedding FA for 4 icons -->
+        <script src="https://use.fontawesome.com/5be3660377.js"></script>
+    </body>
+</html>
