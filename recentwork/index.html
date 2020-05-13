@@ -26,6 +26,14 @@
             padding-right: 0;
           }
 
+          a {
+            color: rgba(0,0,139, .9);
+          }
+
+          a:visited {
+            color: rgb(0,0,139);
+          }
+
           h1, h2, h3, h4, h5, h6 {
             margin: 0;
             padding: 0;
@@ -70,8 +78,8 @@
           .container {
             width: 90%;
             max-width: 1140px;
-            margin-left: 1rem;
-            margin-right: 0;
+            margin-left: auto;
+            margin-right: auto;
           }
 
           .header-row, .row {
@@ -80,6 +88,10 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
             background-color: #fff;
+          }
+          
+          u-d-block {
+            display: block;
           }
 
           @media (max-width: 768px) {
@@ -124,6 +136,27 @@
             flex-wrap: wrap;
           }
 
+          .sample-vid {
+            margin-top: .5rem;
+            margin-right: .5rem;
+          }
+
+          .figure-mobile {
+            margin-top: 1rem;
+            border: none;
+          }
+
+          .figure-mobile img {
+            margin: auto;
+            width: auto;
+            height: 200px;
+          }
+
+          .figure-mobile .lightbox__wrap > img {
+            width: auto;
+            max-height: 680px;
+          }
+
           figure {
             margin-top: 0;
             margin-right: .5rem;
@@ -164,7 +197,6 @@
             font-size: 1.75rem;
             line-height: 1;
             text-align: center;
-            vertical-align: middle;
             background-color: #fff;
             color: #222;
             border-radius: 50%;
@@ -217,7 +249,7 @@
             </div>
 
             <div class="row__item row__item--3 heading-desc">
-              Some neat stuff I did the past few years, starting with the freshest
+              Some neat stuff I did the past few years, starting with the most recent
             </div>
 
             <div class="row__item row__item--5 heading-desc heading-desc--socials">
@@ -236,9 +268,151 @@
             </div>
           </header>
 
+          <!-- update -->
           <section class="row">
             <div class="row__item row__item--2">
-              <h4>HighGround/Kazoo</h4>
+              <h4>Spirit Hub (formerly BigFish Spirits)</h4>
+            </div>
+
+            
+            <div class="row__item row__item--3">
+              <p>
+                Spirit Hub is an ecommerce site, offering craft spirits from independent distilleries across the country.
+                It provides an intuitive and lovely to use experience for shoppers seeking hard to find, rare spirits and as an
+                additional sales outlet for smaller distilleries beyond their local market.
+              </p>
+              <p>
+                My role at Spirit Hub was to refine the user experience, from initial visit, to viewing and filtering product offerings, and checkout flow
+                for website (fully responsive) and mobile app.
+              </p>
+              <p>
+                <a href="https://xd.adobe.com/view/bbe9c316-35c4-4c0f-617d-cbcd26bb68dd-cdd8/grid/" target="_blank">
+                  Adobe XD of select views
+                </a>
+              </p>
+            </div>
+
+            <div class="row__item row__item--5">
+              <div class="sample-images">
+                <figure>
+                  <a href="#sh-catalog">
+                    <img srcset="images/sh-catalog.png 1x, images/sh-catalog@2x.png"
+                         src="images/sh-catalog.png"
+                         alt="Spirit Hub Catalog" />
+                  </a>
+                  <div class="lightbox" id="sh-catalog">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-catalog.png 1x, images/sh-catalog@2x.png"
+                           src="images/sh-catalog.png"
+                           alt="Spirit Hub Catalog" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#sh-product" title="expand">
+                    <img srcset="images/sh-product.png 1x, images/sh-product@2x.png" 
+                         src="images/sh-product.png"
+                         alt="Spirit Hub Product View" />
+                  </a>
+                  <div class="lightbox" id="sh-product">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-product.png 1x, images/sh-product@2x.png"
+                           src="images/sh-catalog.png"
+                           alt="Spirit Hub Product View" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#sh-cart" title="expand">
+                    <img srcset="images/sh-cart.png 1x, images/sh-cart@2x.png" 
+                         src="images/sh-cart.png"
+                         alt="Spirit Hub Cart View" />
+                  </a>
+                  <div class="lightbox" id="sh-cart">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-cart.png 1x, images/sh-cart@2x.png"
+                           src="images/sh-cart.png"
+                           alt="Spirit Hub Cart View" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure>
+                  <a href="#sh-checkout" title="expand">
+                    <img srcset="images/sh-cart.png 1x, images/sh-cart@2x.png" 
+                         src="images/sh-cart.png"
+                         alt="Spirit Hub Checkout View" />
+                  </a>
+                  <div class="lightbox" id="sh-checkout">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-checkout.png 1x, images/sh-checkout@2x.png"
+                           src="images/sh-checkout.png"
+                           alt="Spirit Hub Checkout View" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure class="figure-mobile">
+                  <a href="#sh-app-main" title="expand">
+                    <img srcset="images/sh-app-main.png 1x, images/sh-main@2x.png" 
+                         src="images/sh-main.png"
+                         alt="Spirit Hub Checkout View" />
+                  </a>
+                  <div class="lightbox" id="sh-app-main">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-app-main.png 1x, images/sh-app-main@2x.png"
+                           src="images/sh-app-main.png"
+                           alt="Spirit Hub App Main View" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure class="figure-mobile">
+                  <a href="#sh-app-product" title="expand">
+                    <img srcset="images/sh-app-product.png 1x, images/sh-app-product@2x.png" 
+                         src="images/sh-app-product.png"
+                         alt="Spirit Hub Product View" />
+                  </a>
+                  <div class="lightbox" id="sh-app-product">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-app-product.png 1x, images/sh-app-product@2x.png"
+                           src="images/sh-app-product.png"
+                           alt="Spirit Hub App Product View" />
+                    </div>
+                  </div>
+                </figure>
+
+                <figure class="figure-mobile">
+                  <a href="#sh-app-cart" title="expand">
+                    <img srcset="images/sh-app-cart.png 1x, images/sh-app-cart@2x.png" 
+                         src="images/sh-app-cart.png"
+                         alt="Spirit Hub App Cart View" />
+                  </a>
+                  <div class="lightbox" id="sh-app-cart">
+                    <div class="lightbox__wrap">
+                      <a href="#" class="lightbox__close">✕</a>
+                      <img srcset="images/sh-app-cart.png 1x, images/sh-app-cart@2x.png"
+                           src="images/sh-app-cart.png"
+                           alt="Spirit Hub App Cart View" />
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </section>
+          <!-- end update -->
+
+          <section class="row">
+            <div class="row__item row__item--2">
+              <h4>Kazoo (formerly HighGround &amp; YouEarnedIt</h4>
             </div>
 
             <div class="row__item row__item--3">
@@ -302,7 +476,14 @@
                   </div>
                 </figure>
               </div>
+
+              <div class="sample-vid">
+                <a href="https://drive.google.com/file/d/1qDLDbyAyhVBnJeL9UJpK56wcMrm7Paj6/view?usp=sharing" target="_blank" class="u-d-block">
+                  <img src="images/hg-vid-preview.png" alt="Video thumbnail of HighGround">
+                </a>
+              </div>
             </div>
+
           </section>
 
           <section class="row">
