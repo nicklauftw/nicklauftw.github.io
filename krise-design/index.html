@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>K-Rise Easybuilder</title>
+  <!-- These meta and og properties will need to be filled -->
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- Icons, recommend hosting locally -->
+  <!-- Using Font Awesome v5.x -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css">
+  <!-- Bootstrap CSS v4.5.x  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Additional custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top bg-light shadow">
+      <div>
+        <!-- Toggle display of side menu, refer to bottom of document on the JS to trigger it -->
+        <button id="toggleSidebar" class="btn btn-lg">
+          <span class="fas fa-bars"></span>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+        <a href="/" class="d-inline-block">
+          <img src="https://www.krisesystems.com/wp-content/themes/k-rise/images/new-logo.png" alt="K-Rise Systems" class="img-fluid" style="width: 100px; height: auto;"/>
+        </a>
+      </div>
+
+      <div>
+        <button type="button" class="btn btn-light">
+          Notifications <span class="badge badge-secondary">3</span>
+        </button>
+
+        <!-- App Switcher Toggler -->
+        <div class="btn-group">
+          <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-th fa-lg"></i>
+            <span class="sr-only">App Switcher</span>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">App 1</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">App 2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">App 3</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">App Etc..</a>
+          </div>
+        </div>
+
+        <!-- User Account Dropdown -->
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nick Lau
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#"><i class="far fa-user-circle"></i> Account</a>
+            <a class="dropdown-item" href="#"><i class="far fa-question-circle"></i> Help</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-headset"></i> Support</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <nav id="sidebar-nav" class="sidebar-nav d-flex flex-column px-3">
+      <section>
+        <h6>
+          <i class="fas fa-file-invoice mr-2"></i><span class="text-uppercase">Reports</span>
+        </h6>
+          <ul class="list-unstyled">
+          <li><a href="">Workflow Reports</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h6>
+          <span class="fas fa-search mr-2"></span><span class="text-uppercase">Inquire</span>
+        </h6>
+        <ul class="list-unstyled">
+          <li><a href="">POSearch</a></li>
+          <li><a href="">Supplier Lookup</a></li>
+          <li><a href="">Account Code Lookup</a></li>
+          <li><a href="">Receipt Search</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h6>
+          <i class="fas fa-cart-plus mr-2"></i><span class="text-uppercase">Procurement</span>
+        </h6>
+        <ul class="list-unstyled">
+          <li><a href="">Work With Approval Routes</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h6>
+          <i class="fas fa-tasks mr-2"></i><span class="text-uppercase">Requisition</span>
+        </h6>
+        <ul class="list-unstyled">
+          <li><a href="">Work With Approval Routes</a></li>
+        </ul>
+      </section>
+
+      <footer class="mt-auto mb-2 small">
+        Powered by <a href="#"><u>EASYProcess™️</u></a>
+        <br>
+        <!-- Year shouldn't be hardcoded -->
+        © 2021 K-Rise Systems.
+        <br>
+        All rights reserved.
+        <br>
+        <!-- Insert links -->
+        <a href="#" target="_blank"><u>Privacy</u></a> | <a href="#" target="_blank"><u>Terms</u></a>
+      </footer>
+    </nav>
+
+    <!-- This is sample and placeholder content of what could go in this main area -->
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Test Content</h1>
+                <p class="lead">This is brainstorm, sample, and placeholder content of what could go in this main area</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="panel-body bg-white p-2 shadow">
+              <form action="">
+                <div class="form-group row">
+                  <div class="col-md-2 mob-mrgbot15">
+                    <label class="control-label">Address Book #</label>
+
+                    <input type="text" class="form-control">
+
+                  </div>
+
+                  <div class="col-md-2 mob-mrgbot15">
+                    <label class="control-label">Alpha Name</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col-md-3 mob-mrgbot15">
+                    <label class="control-label">Search Type</label>
+                    <select class="form-control">
+                      <option selected="selected" value="">All</option>
+                      <option value="5I">Inactive Independent Contracto (5I)</option>
+                      <option value="VI">Inactive Vendors (VI)</option>
+                      <option value="5">Independent Contractors (5)</option>
+                      <option value="LI">Location (Inactive) (LI)</option>
+                      <option value="L">Location (L)</option>
+                      <option value="V">Suppliers (V)</option>
+                      <option value="YBI">YardBarker Inactive (YBI)</option>
+                      <option value="YB">Yardbarker (YB)</option>
+
+                    </select>
+                  </div>
+                  <div class="col-md-3 mob-mrgbot15">
+                    <label class="control-label">Vendor Street Address</label>
+                    <input type="text" class="form-control">
+
+                  </div>
+                  <div class="col-md-2">
+                    <label class="control-label">Federal Tax ID/SSN</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-12">
+                    <button type="button" class="btn btn-primary">Search</button>
+                    <hr>
+                  </div>
+
+                </div>
+
+                <div class="form-grop row">
+                  <div class="col-md-12 col-xs-12">
+                    <p class="text-danger"><strong>Maintained By: If a supplier maintained vendor needs to be updated click on the
+                        Vendor Admin tab to find the email address for the vendor administrator who maintains this account.</strong>
+                    </p>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-md-12">
+
+                    <div class="table-responsive">
+                      <table class="table table-striped">
+
+                        <thead>
+
+                          <tr>
+                            <th>Address Book #</th>
+
+                            <th>Search Type
+                            </th>
+
+                            <th>Federal Tax ID/SSN</th>
+
+                            <th>Alpha Name</th>
+
+                            <th>Address Line 1 </th>
+                            <th>Address Line 2</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Zip</th>
+                            <th>Maintained By </th>
+                            <th>Status</th>
+                            <th class="action-set">Action</th>
+
+                          </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                          <tr>
+
+                            <td>351</td>
+
+                            <td>V </td>
+
+                            <td>XXXXX5688</td>
+
+                            <td>National Sports Partners </td>
+
+                            <td>TEST LINE 1 </td>
+
+                            <td>-</td>
+                            <td> Los Angeles</td>
+
+                            <td>CA</td>
+
+                            <td>90074-5434</td>
+
+
+                            <td>Fox Networks Group</td>
+                            <td>-</td>
+                            <td>
+
+                              <div class="btn-group set-width">
+                                <a href="invite-vendor-admin.html" class="btn-sm btn-link" title="Invite Vendor"><span
+                                    class="btn-icon"><img src="../assets/images/icons/invite-vendor-admin.svg"></span><span
+                                    class="btn-txt">Invite<br>Vendor</span></a>
+                                <a href="update-this-vendor.html" class="btn-sm btn-link" title="Update this Vendor"><span
+                                    class="btn-icon"><img src="../assets/images/icons/update-this-vendor.svg"></span><span
+                                    class="btn-txt">Update<br> Vendor</span></a>
+                              </div>
+
+                            </td>
+
+                          </tr>
+                          <tr>
+
+                            <td>28441</td>
+
+                            <td>5I </td>
+
+                            <td>XXXXX6526</td>
+
+                            <td>Thornal, Hilry </td>
+
+                            <td>2802 Inridge Dr. </td>
+
+                            <td>-</td>
+                            <td> Austin</td>
+
+                            <td>TX</td>
+
+                            <td>78745</td>
+
+
+                            <td>Fox Networks Group</td>
+
+                            <td> <span class="text-primary">Process</span></td>
+                            <td>
+                              <div class="btn-group set-width">
+                                <a href="mailto:abc.com" class="btn-sm btn-link" title="Email Vendor Admin"><span
+                                    class="btn-icon"><img src="../assets/images/icons/email.svg"></span><span class="btn-txt">Email
+                                    Vendor<br> Admin</span></a>
+                                <a href="#" class="btn-sm btn-link" title="View Vendor Profile"><span class="btn-icon"><img
+                                      src="../assets/images/icons/vendor-profile.svg"></span><span class="btn-txt">View
+                                    Vendor<br>Profile</span></a>
+
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+
+                            <td>28484</td>
+
+                            <td>5I </td>
+
+                            <td>XXXXX9813</td>
+
+                            <td>Friday, Lee </td>
+
+                            <td>2953 Majestic Oak</td>
+
+                            <td>-</td>
+                            <td> Grapevine</td>
+
+                            <td>TX</td>
+
+                            <td>76051</td>
+
+
+                            <td>Fox Networks Group</td>
+                            <td>-</td>
+                            <td>
+                              <div class="btn-group set-width">
+                                <a href="invite-vendor-admin.html" class="btn-sm btn-link" title="Invite Vendor"><span
+                                    class="btn-icon"><img src="../assets/images/icons/invite-vendor-admin.svg"></span><span
+                                    class="btn-txt">Invite<br>Vendor</span></a>
+                                <a href="update-this-vendor.html" class="btn-sm btn-link" title="Update this Vendor"><span
+                                    class="btn-icon"><img src="../assets/images/icons/update-this-vendor.svg"></span><span
+                                    class="btn-txt">Update<br> Vendor</span></a>
+                              </div>
+
+                            </td>
+
+                          </tr>
+
+
+                        </tbody>
+
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card shadow">
+              <div class="card-header">
+                Important Information
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">All documents, including the blank Vendor Profile Form, sent to the vendor MUST be encrypted.</li>
+                <li class="list-group-item">Failure to encrypt is a violation of the Vendor Policy, and other Company Policies.</li>
+                <li class="list-group-item">Read and follow the Vendor Policy.</li>
+                <li class="list-group-item">Please provide a complete description of goods and services.</li>
+                <li class="list-group-item">Do not use your email or desktop to store completed Vendor Profile Forms.</li>
+                <li class="list-group-item">Delete all documents, including the Vendor Profile Forms, immediately.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Bootstrap JS, host locally -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!-- Toggle the left side menu -->
+  <script>
+    $(document).ready(
+      $("#toggleSidebar").click(function() {
+        $("#sidebar-nav").toggleClass("collapse");
+      })
+    );
+  </script>
+</body>
+
+</html>

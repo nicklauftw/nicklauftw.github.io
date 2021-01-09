@@ -1,0 +1,791 @@
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<!-- META -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://www.krisesystems.com/xmlrpc.php" />
+
+
+<!-- JAVASCRIPT -->
+<script src="https://www.krisesystems.com/wp-content/themes/optik-theme/resources/framework/js/jquery.min.js"></script>
+<!--[if lt IE 9]><script src="https://www.krisesystems.com/wp-content/themes/optik-theme/resources/framework/js/html5.js" type="text/javascript"></script><![endif]-->
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v15.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - K-Rise Systems, Inc.</title>
+	<meta name="robots" content="noindex, follow" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - K-Rise Systems, Inc." />
+	<meta property="og:site_name" content="K-Rise Systems, Inc." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.krisesystems.com/#website","url":"https://www.krisesystems.com/","name":"K-Rise Systems, Inc.","description":"Enterprise. Easier.","potentialAction":[{"@type":"SearchAction","target":"https://www.krisesystems.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.14.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+    (window.gaDevIds=window.gaDevIds||[]).push("dZGIzZG");
+	var mi_version         = '7.14.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-10337854-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-10337854-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer);
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.krisesystems.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='bxslider-style-css'  href='https://www.krisesystems.com/wp-content/plugins/gs-logo-slider/gsl-files/css/jquery.bxslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gs-main-style-css'  href='https://www.krisesystems.com/wp-content/plugins/gs-logo-slider/gsl-files/css/gs-main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='https://www.krisesystems.com/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='https://www.krisesystems.com/wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.krisesystems.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-sitemap-css-css'  href='https://www.krisesystems.com/wp-content/plugins/simple-sitemap/lib/assets/css/simple-sitemap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_accordion_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-accordion/accordion.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_careers_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-careers/careers.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_customers_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-customers/customers.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_recent_posts_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-recent-posts/recent-posts.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_scroll_bar_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-scroll-bar/scroll-bar.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_tabs_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-tabs/tabs.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs_webinars_css-css'  href='https://www.krisesystems.com/wp-content/plugins/optik-webinars/webinars.css' type='text/css' media='all' />
+<link rel='stylesheet' id='vfb-pro-css'  href='https://www.krisesystems.com/wp-content/plugins/vfb-pro/public/assets/css/vfb-style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='monsterinsights-popular-posts-style-css'  href='https://www.krisesystems.com/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.krisesystems.com/wp-content/plugins/tablepress/css/default.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='https://www.krisesystems.com/wp-content/plugins/easy-fancybox/css/jquery.fancybox.min.css' type='text/css' media='screen' />
+<script type='text/javascript' src='https://www.krisesystems.com/wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
+<script type='text/javascript' id='monsterinsights-frontend-script-js-extra'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/www.krisesystems.com","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/optik-accordion/accordion.min.js' id='wgs_accordion_js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/optik-customers/customers.js' id='wgs_customers_js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/optik-scroll-bar/scroll-bar.js' id='wgs_scroll_bar_js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/optik-tabs/tabs.min.js' id='wgs_tabs_js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/themes/optik-theme/resources/framework/js/framework.min.js' id='framework_scripts-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/themes/optik-theme/resources/animations/js/wow.min.js' id='animations_script-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/themes/optik-theme/resources/animations/js/wow-settings.js' id='animations_settings_script-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/themes/optik-theme/resources/menus/menus.min.js' id='main_menu_script-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/themes/k-rise/js/custom.js' id='custom_theme_scripts-js'></script>
+<link rel="https://api.w.org/" href="https://www.krisesystems.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.krisesystems.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.krisesystems.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<!-- Hotjar Tracking Code for www.krisesystems.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1031723,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); 
+</script><script type="text/javascript">
+	window.__lc = window.__lc || {};
+	window.__lc.license = 43;
+	window.__lc.visitor = {
+		name: '',
+		email: ''
+	};
+	(function() {
+		var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+		lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+	})();
+</script>
+<noscript>
+<a href="https://www.livechat.com/chat-with/43/">Chat with us</a>,
+powered by <a href="https://www.livechat.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
+</noscript><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.krisesystems.com"><link rel="https://theeventscalendar.com/" href="https://www.krisesystems.com/wp-json/tribe/events/v1/" />		<style type="text/css" id="wp-custom-css">
+			.nf-form-fields-required{display:none;}		</style>
+		
+<!-- CSS -->
+<link rel="stylesheet" href="https://www.krisesystems.com/wp-content/themes/k-rise/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://www.krisesystems.com/wp-content/themes/optik-theme/resources/styles/print-styles.min.css" type="text/css" media="print" />
+
+<!-- FAVICONS -->
+<link rel="apple-touch-icon" href="https://www.krisesystems.com/wp-content/themes/k-rise/favicons/touch-icon.png">
+<link rel="icon" href="https://www.krisesystems.com/wp-content/themes/k-rise/favicons/favicon.png">
+<!--[if IE]><link rel="shortcut icon" href="https://www.krisesystems.com/wp-content/themes/k-rise/favicons/favicon.ico"><![endif]-->
+<!-- or, set /favicon.ico for IE10 win -->
+
+</head>
+
+<body class="error404 tribe-no-js elementor-default elementor-kit-3642">
+
+
+
+
+
+<!-- HIDDEN OVERLAYS ---------------------------------------------------------->
+
+
+
+<!-- MOBILE OVERLAY -->
+
+<div class="mobile-overlay"></div>
+
+
+
+
+<!-- SCROLL BAR -->
+
+
+<nav class="section scroll-bar">
+
+    <div class="section-container scroll-bar-container">
+    
+        <div class="section scroll-bar-inner">
+
+            <div class="grid">
+
+
+                <div class="col-custom scroll-logo-wrapper">
+                    <a class="scroll-logo" href="https://www.krisesystems.com/">
+                            <img src="https://www.krisesystems.com/wp-content/themes/k-rise/images/new-logo.png" />
+                    </a>
+                </div> <!-- col-custom scroll-logo-wrapper -->
+                
+                
+				<nav class="col-custom scroll-bar-nav"><ul id="menu-new-primary" class="nav-menu scroll-menu"><li id="menu-item-2315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2315"><a href="https://www.krisesystems.com/easyprocess"><span>Platform</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2303"><a href="/EASYProcess"><span>Platform Overview</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-2510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2510"><a href="https://www.krisesystems.com/web-and-mobile/"><span>Web and Mobile</span></a></li>
+		<li id="menu-item-2491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2491"><a href="https://www.krisesystems.com/workflow/"><span>Workflow</span></a></li>
+		<li id="menu-item-2481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481"><a href="https://www.krisesystems.com/headless/"><span>RESTful and Web Services</span></a></li>
+		<li id="menu-item-2500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2500"><a href="https://www.krisesystems.com/devops/"><span>DevOps</span></a></li>
+		<li id="menu-item-3594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3594"><a href="https://www.krisesystems.com/easycloud-connector/"><span>Secure Connectivity</span></a></li>
+		<li id="menu-item-3638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3638"><a href="https://www.krisesystems.com/identity-management/"><span>Identity Management</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-2302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2302"><a href="/customers/"><span>Customer Examples</span></a></li>
+	<li id="menu-item-2578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2578"><a href="https://www.krisesystems.com/product-features-and-specs/"><span>Product Features and Specs</span></a></li>
+	<li id="menu-item-2632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"><a href="https://www.krisesystems.com/training/"><span>Training</span></a></li>
+	<li id="menu-item-3220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3220"><a href="https://www.krisesystems.com/new-pricing/"><span>EASYProcess Platform Pricing</span></a></li>
+	<li id="menu-item-3447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3447"><a href="https://www.krisesystems.com/gallery/"><span>Gallery</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2316"><a href="https://www.krisesystems.com/about/"><span>Why K-Rise</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2838"><a href="https://www.krisesystems.com/it-leaders/"><span>IT Leaders</span></a></li>
+	<li id="menu-item-2837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2837"><a href="https://www.krisesystems.com/it-managers/"><span>IT Managers</span></a></li>
+	<li id="menu-item-2839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://www.krisesystems.com/professional-developers/"><span>Professional Developers</span></a></li>
+	<li id="menu-item-2306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2306"><a href="https://www.krisesystems.com/about/"><span>A Platform Driven Company</span></a></li>
+	<li id="menu-item-3342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3342"><a href="https://www.krisesystems.com/partners-2/"><span>Partners</span></a></li>
+	<li id="menu-item-2308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2308"><a href="https://www.krisesystems.com/customers/"><span>Customers</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2297" class="remove-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2297"><a href="#"><span>Prebuilt Solutions</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2311"><a href="https://www.krisesystems.com/jd-edwards-ecommerce/"><span>E-Commerce</span></a></li>
+	<li id="menu-item-2312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2312"><a href="https://www.krisesystems.com/jd-edwards-payments/"><span>Integrated Payment Solutions</span></a></li>
+	<li id="menu-item-2313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2313"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/"><span>Vendor Solutions</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-2327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/"><span>Vendor Self-Service</span></a></li>
+		<li id="menu-item-2328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2328"><a href="https://www.krisesystems.com/jd-edwards-vendor-onboarding/"><span>Vendor Onboarding</span></a></li>
+		<li id="menu-item-2329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2329"><a href="https://www.krisesystems.com/jd-edwards-supplier-contact-item-update/"><span>Supplier Contact &#038; Item Update</span></a></li>
+		<li id="menu-item-2330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2330"><a href="https://www.krisesystems.com/jd-edwards-po-requisitioning/"><span>EASYBuyer for PO Requisitioning</span></a></li>
+		<li id="menu-item-2331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2331"><a href="https://www.krisesystems.com/jd-edwards-new-item-master-approval/"><span>New Item Approval</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-2314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314"><a href="https://www.krisesystems.com/jd-edwards-employee-self-service/"><span>HR/Employee Solutions</span></a></li>
+	<li id="menu-item-2949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2949"><a href="https://www.krisesystems.com/ep-jde-integrations"><span>EASYProcess: JDE Integration</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2592" class="remove-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2592"><a href="#"><span>Resources</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2601" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2601"><a href="https://www.krisesystems.com/category/blog/"><span>Blog</span></a></li>
+	<li id="menu-item-2304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2304"><a href="/events/"><span>Events</span></a></li>
+	<li id="menu-item-2690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://www.krisesystems.com/krisevideos/"><span>K-Rise Videos</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2298"><a href="https://www.krisesystems.com/contact/"><span>Contact Us</span></a></li>
+<li id="menu-item-2299" class="remove-link menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2299"><a href="https://www.krisesystems.com/contact/"><span>Try For Free</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2877"><a href="https://www.krisesystems.com/community-edition"><span>Community Edition</span></a></li>
+	<li id="menu-item-2861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2861"><a href="https://www.krisesystems.com/contact/"><span>Schedule a Demo</span></a></li>
+	<li id="menu-item-2862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2862"><a href="https://www.krisesystems.com/training/"><span>Training</span></a></li>
+</ul>
+</li>
+</ul></nav>
+ 
+            </div> <!-- grid -->
+
+        </div> <!-- section scroll-bar-inner -->
+
+    </div> <!-- section-container scroll-bar-container -->
+
+</nav> <!-- section scroll-bar -->
+
+
+
+
+
+
+<!-- CUSTOM SITE CODE --------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!-- VISIBLE HTML ------------------------------------------------------------->
+
+
+
+<div class="section site">
+    
+    <div class="site-container">
+        
+        <div class="section site-inner">
+    
+    
+
+            <header class="section header">
+            
+                <div class="section-container header-container">
+                    
+                    <div class="section header-inner">
+                
+                
+                        <div class="header-buttons">
+                        
+							                                                    
+                            <a class="menu-button" href="#"><i class="icon icon-bars"></i></a>
+            
+                        </div> <!-- header-buttons -->
+                        
+                        
+                        <div class="grid">
+                        
+                        
+							                        
+                        
+                            <div class="col-custom logo-wrapper">
+                            
+                                    <a class="logo" href="https://www.krisesystems.com/">
+                                        <img src="https://www.krisesystems.com/wp-content/themes/k-rise/images/new-logo.png" />
+                                    </a>
+                                                    
+                            </div> <!-- col-custom logo-wrapper -->
+                            
+                            
+							                            
+                            <div class="col-custom header-right">
+
+								                                
+								                                
+									<nav class="section heaver-nav header-right-nav"><ul id="menu-new-primary-1" class="nav-menu header-menu header-right-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2315"><a href="https://www.krisesystems.com/easyprocess"><span>Platform</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2303"><a href="/EASYProcess"><span>Platform Overview</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2510"><a href="https://www.krisesystems.com/web-and-mobile/"><span>Web and Mobile</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2491"><a href="https://www.krisesystems.com/workflow/"><span>Workflow</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481"><a href="https://www.krisesystems.com/headless/"><span>RESTful and Web Services</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2500"><a href="https://www.krisesystems.com/devops/"><span>DevOps</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3594"><a href="https://www.krisesystems.com/easycloud-connector/"><span>Secure Connectivity</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3638"><a href="https://www.krisesystems.com/identity-management/"><span>Identity Management</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2302"><a href="/customers/"><span>Customer Examples</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2578"><a href="https://www.krisesystems.com/product-features-and-specs/"><span>Product Features and Specs</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"><a href="https://www.krisesystems.com/training/"><span>Training</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3220"><a href="https://www.krisesystems.com/new-pricing/"><span>EASYProcess Platform Pricing</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3447"><a href="https://www.krisesystems.com/gallery/"><span>Gallery</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2316"><a href="https://www.krisesystems.com/about/"><span>Why K-Rise</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2838"><a href="https://www.krisesystems.com/it-leaders/"><span>IT Leaders</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2837"><a href="https://www.krisesystems.com/it-managers/"><span>IT Managers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://www.krisesystems.com/professional-developers/"><span>Professional Developers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2306"><a href="https://www.krisesystems.com/about/"><span>A Platform Driven Company</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3342"><a href="https://www.krisesystems.com/partners-2/"><span>Partners</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2308"><a href="https://www.krisesystems.com/customers/"><span>Customers</span></a></li>
+</ul>
+</li>
+<li class="remove-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2297"><a href="#"><span>Prebuilt Solutions</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2311"><a href="https://www.krisesystems.com/jd-edwards-ecommerce/"><span>E-Commerce</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2312"><a href="https://www.krisesystems.com/jd-edwards-payments/"><span>Integrated Payment Solutions</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2313"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/"><span>Vendor Solutions</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/"><span>Vendor Self-Service</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2328"><a href="https://www.krisesystems.com/jd-edwards-vendor-onboarding/"><span>Vendor Onboarding</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2329"><a href="https://www.krisesystems.com/jd-edwards-supplier-contact-item-update/"><span>Supplier Contact &#038; Item Update</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2330"><a href="https://www.krisesystems.com/jd-edwards-po-requisitioning/"><span>EASYBuyer for PO Requisitioning</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2331"><a href="https://www.krisesystems.com/jd-edwards-new-item-master-approval/"><span>New Item Approval</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314"><a href="https://www.krisesystems.com/jd-edwards-employee-self-service/"><span>HR/Employee Solutions</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2949"><a href="https://www.krisesystems.com/ep-jde-integrations"><span>EASYProcess: JDE Integration</span></a></li>
+</ul>
+</li>
+<li class="remove-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2592"><a href="#"><span>Resources</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2601"><a href="https://www.krisesystems.com/category/blog/"><span>Blog</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2304"><a href="/events/"><span>Events</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://www.krisesystems.com/krisevideos/"><span>K-Rise Videos</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2298"><a href="https://www.krisesystems.com/contact/"><span>Contact Us</span></a></li>
+<li class="remove-link menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2299"><a href="https://www.krisesystems.com/contact/"><span>Try For Free</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2877"><a href="https://www.krisesystems.com/community-edition"><span>Community Edition</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2861"><a href="https://www.krisesystems.com/contact/"><span>Schedule a Demo</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2862"><a href="https://www.krisesystems.com/training/"><span>Training</span></a></li>
+</ul>
+</li>
+</ul></nav>                                
+                                                                
+                            </div> <!-- col-custom header-left -->
+                            
+                                                    
+                        
+                        </div> <!-- grid -->
+                        
+                        
+                    </div> <!-- section header-inner header-logo-left-inner header-default-inner -->
+            
+                </div> <!-- section-container header-container header-logo-left-container header-default-container -->
+            
+            </header> <!-- section header header-logo-left header-default -->
+                        
+                        
+
+			 
+            
+            
+            
+			            
+            <nav class="mobile-nav">
+            
+				                                
+                <ul id="menu-new-primary-2" class="mobile-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2315"><a href="https://www.krisesystems.com/easyprocess"><span>Platform</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2303"><a href="/EASYProcess"><span>Platform Overview</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2510"><a href="https://www.krisesystems.com/web-and-mobile/"><span>Web and Mobile</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2491"><a href="https://www.krisesystems.com/workflow/"><span>Workflow</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2481"><a href="https://www.krisesystems.com/headless/"><span>RESTful and Web Services</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2500"><a href="https://www.krisesystems.com/devops/"><span>DevOps</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3594"><a href="https://www.krisesystems.com/easycloud-connector/"><span>Secure Connectivity</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3638"><a href="https://www.krisesystems.com/identity-management/"><span>Identity Management</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2302"><a href="/customers/"><span>Customer Examples</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2578"><a href="https://www.krisesystems.com/product-features-and-specs/"><span>Product Features and Specs</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2632"><a href="https://www.krisesystems.com/training/"><span>Training</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3220"><a href="https://www.krisesystems.com/new-pricing/"><span>EASYProcess Platform Pricing</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3447"><a href="https://www.krisesystems.com/gallery/"><span>Gallery</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2316"><a href="https://www.krisesystems.com/about/"><span>Why K-Rise</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2838"><a href="https://www.krisesystems.com/it-leaders/"><span>IT Leaders</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2837"><a href="https://www.krisesystems.com/it-managers/"><span>IT Managers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="https://www.krisesystems.com/professional-developers/"><span>Professional Developers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2306"><a href="https://www.krisesystems.com/about/"><span>A Platform Driven Company</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3342"><a href="https://www.krisesystems.com/partners-2/"><span>Partners</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2308"><a href="https://www.krisesystems.com/customers/"><span>Customers</span></a></li>
+</ul>
+</li>
+<li class="remove-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2297"><a href="#"><span>Prebuilt Solutions</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2311"><a href="https://www.krisesystems.com/jd-edwards-ecommerce/"><span>E-Commerce</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2312"><a href="https://www.krisesystems.com/jd-edwards-payments/"><span>Integrated Payment Solutions</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2313"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/"><span>Vendor Solutions</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2327"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/"><span>Vendor Self-Service</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2328"><a href="https://www.krisesystems.com/jd-edwards-vendor-onboarding/"><span>Vendor Onboarding</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2329"><a href="https://www.krisesystems.com/jd-edwards-supplier-contact-item-update/"><span>Supplier Contact &#038; Item Update</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2330"><a href="https://www.krisesystems.com/jd-edwards-po-requisitioning/"><span>EASYBuyer for PO Requisitioning</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2331"><a href="https://www.krisesystems.com/jd-edwards-new-item-master-approval/"><span>New Item Approval</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314"><a href="https://www.krisesystems.com/jd-edwards-employee-self-service/"><span>HR/Employee Solutions</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2949"><a href="https://www.krisesystems.com/ep-jde-integrations"><span>EASYProcess: JDE Integration</span></a></li>
+</ul>
+</li>
+<li class="remove-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2592"><a href="#"><span>Resources</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2601"><a href="https://www.krisesystems.com/category/blog/"><span>Blog</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2304"><a href="/events/"><span>Events</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2690"><a href="https://www.krisesystems.com/krisevideos/"><span>K-Rise Videos</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2298"><a href="https://www.krisesystems.com/contact/"><span>Contact Us</span></a></li>
+<li class="remove-link menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2299"><a href="https://www.krisesystems.com/contact/"><span>Try For Free</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2877"><a href="https://www.krisesystems.com/community-edition"><span>Community Edition</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2861"><a href="https://www.krisesystems.com/contact/"><span>Schedule a Demo</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2862"><a href="https://www.krisesystems.com/training/"><span>Training</span></a></li>
+</ul>
+</li>
+</ul>            
+            </nav> <!-- mobile-nav -->
+
+             
+            
+
+
+
+<header class="section banner 404-banner">
+
+    <div class="section banner-overlay 404-banner-overlay">
+    
+        <div class="section-container banner-container 404-banner-container">
+        
+            <div class="section banner-inner 404-banner-inner">
+        
+                <div class="grid">
+        
+        
+                    <div class="col-custom">
+                    
+                        <h1>404 Error</h1>
+                            
+                    </div> <!-- col-custom -->
+                    
+                    
+                </div> <!-- grid -->
+        
+            </div> <!-- section banner-inner 404-banner-inner -->
+        
+        </div> <!-- section-container banner-container 404-banner-container -->
+
+    </div> <!-- section banner-overlay 404-banner-overlay -->
+
+</header> <!-- section banner 404-banner -->
+
+
+
+<header class="section title-bar 404-title-bar">
+
+	<div class="section-container title-bar-container 404-title-bar-container">
+    
+    	<div class="section title-bar-inner 404-title-bar-inner">
+        
+            <div class="grid">
+    
+    
+                <div class="col-custom">
+                
+                	<h1>404 Error</h1>
+                        
+                </div> <!-- col-custom -->
+                
+                
+            </div> <!-- grid -->
+
+    	</div> <!-- section title-bar-inner 404-title-inner-bar -->
+    
+    </div> <!-- section-container title-bar-container 404-title-inner-bar -->
+
+</header> <!-- section title-bar 404-title-bar -->
+
+
+
+<main class="section main full-width 404-page">
+
+	<div class="section-container main-container full-width-container 404-page-container">
+    
+        <article class="section main-inner full-width-inner 404-page-inner content">
+        
+        
+            <h1 align="center">Oh no! Something has gone wrong.</h1>
+            
+            <p align="center" class="text-6">The page you are looking for has been moved or no longer exists.<br />Take a moment to search what you are looking for.</p>
+            
+            <div class="section" style="max-width:400px;">
+<form method="get" id="search" class="search-form" action="https://www.krisesystems.com/">
+
+    <input type="text" value="" name="s" id="s" size="35" onfocus="this.value=''" class="search-field" Placeholder="Search our site" />
+    
+    <input type="submit" id="searchsubmit" class="search-submit" value="" />
+    
+</form>
+</div>
+    
+
+	    </article> <!-- section main-inner full-width-inner 404-page-inner content -->
+    
+    </div> <!-- section-container main-container full-width-container 404-page-container -->
+
+</main> <!-- section main full-width 404-page -->
+
+
+
+
+
+
+			 
+
+
+
+			                            
+            <footer class="section footer">
+            
+                <div class="section-container footer-container">
+            
+                    <div class="section footer-inner">
+            
+                        <div class="grid grid-spaced">
+                        
+
+							
+							<div class="col-custom">
+
+								<aside class="widget_text section widget footer-widget widget_custom_html"><div class="textwidget custom-html-widget"><h3><a href="https://www.krisesystems.com/about/" style="color:#fff;">About K-Rise Systems</a></h3>
+<p>K-Rise Systems is a software company, dedicated to providing strategic ERP integrated solutions Better, Faster, Easier & more Cost Effective than all our competitors through our no-code development platform.</p>
+
+<p>
+
+<a class="display-" target="_blank" href="https://www.facebook.com/krisesystems/" rel="noopener noreferrer"><i class="icon icon-social icon-black icon-hover-brand icon-bg-white    icon- icon-shape-rounded-sm icon-facebook icon-   "></i></a>
+
+<a class="display-" target="_blank" href="https://twitter.com/EASYProcessNews" rel="noopener noreferrer"><i class="icon icon-social icon-black icon-hover-brand icon-bg-white    icon- icon-shape-rounded-sm icon-twitter icon-   "></i></a>
+
+<a class="display-" target="_blank" href="https://www.youtube.com/channel/UCz-w2ujol7ses48svj3MvDw" rel="noopener noreferrer"><i class="icon icon-social icon-black icon-hover-brand icon-bg-white    icon- icon-shape-rounded-sm icon-youtube icon-   "></i></a>
+
+<a class="display-" target="_blank" href="https://www.linkedin.com/company/k-rise-systems-inc-" rel="noopener noreferrer"><i class="icon icon-social icon-black icon-hover-brand icon-bg-white    icon- icon-shape-rounded-sm icon-linkedin icon-   "></i></a>
+
+</p></div></aside><aside class="section widget footer-widget widget_nav_menu"><h3>Quick Links</h3><div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu"><li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1050"><a href="https://www.krisesystems.com/">Home</a></li>
+<li id="menu-item-1051" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1051"><a href="https://www.krisesystems.com/about/">About</a></li>
+<li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053"><a href="https://www.krisesystems.com/partners/">Partners</a></li>
+<li id="menu-item-1054" class="menu-item menu-item-type-post_type_archive menu-item-object-tribe_events menu-item-1054"><a href="https://www.krisesystems.com/events/">Events</a></li>
+<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1055"><a href="https://www.krisesystems.com/customers/">Customers</a></li>
+<li id="menu-item-1056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1056"><a href="https://www.krisesystems.com/contact/">Contact</a></li>
+<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1057"><a href="https://www.krisesystems.com/resources/cloud-mobile/">Resources</a></li>
+<li id="menu-item-1058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1058"><a href="/contact">Request Demo</a></li>
+<li id="menu-item-1059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1059"><a href="https://b2bportal.krisesystems.com/">Login</a></li>
+<li id="menu-item-1060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1060"><a href="https://www.krisesystems.com/careers/">Careers</a></li>
+<li id="menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2370"><a href="https://www.krisesystems.com/resources/technical-documentation">Technical Docs</a></li>
+</ul></div></aside>
+							</div> <!-- col-custom -->
+
+							
+
+							
+							<div class="col-custom">
+
+								<aside class="section widget footer-widget widget_nav_menu"><h3>E-Commerce</h3><div class="menu-e-commerce-container"><ul id="menu-e-commerce" class="menu"><li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="https://www.krisesystems.com/jd-edwards-ecommerce/">EASYCommerce</a></li>
+</ul></div></aside><aside class="section widget footer-widget widget_nav_menu"><h3>Payments</h3><div class="menu-payments-container"><ul id="menu-payments" class="menu"><li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="https://www.krisesystems.com/jd-edwards-payments/">EASYPay</a></li>
+</ul></div></aside><aside class="section widget footer-widget widget_nav_menu"><h3>No-Code Development Platform</h3><div class="menu-platform-container"><ul id="menu-platform" class="menu"><li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https://www.krisesystems.com/easyprocess">EASYProcess</a></li>
+<li id="menu-item-1291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1291"><a href="https://www.krisesystems.com/middleware/">Technical Details</a></li>
+</ul></div></aside>
+							</div> <!-- col-custom -->
+
+							
+
+							
+							<div class="col-custom">
+
+								<aside class="section widget footer-widget widget_nav_menu"><h3>Other Products</h3><div class="menu-other-products-container"><ul id="menu-other-products" class="menu"><li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="https://www.krisesystems.com/jd-edwards-vendor-self-service/">Vendor Self-Service</a></li>
+<li id="menu-item-203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203"><a href="https://www.krisesystems.com/jd-edwards-vendor-onboarding/">Vendor Onboarding</a></li>
+<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="https://www.krisesystems.com/jd-edwards-supplier-contact-item-update/">Supplier Contact &#038; Item Update</a></li>
+<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="https://www.krisesystems.com/jd-edwards-po-requisitioning/">EASYBuyer for PO Requisitioning</a></li>
+<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="https://www.krisesystems.com/jd-edwards-new-item-master-approval/">New Item Approval</a></li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="https://www.krisesystems.com/jd-edwards-employee-self-service/">Employee Self-Service</a></li>
+</ul></div></aside>
+							</div> <!-- col-custom -->
+
+							                            
+
+                        </div> <!-- grid grid-spaced -->
+            
+                    </div> <!-- section footer-inner -->
+            
+                </div> <!-- section-container footer-container -->
+            
+            </footer> <!-- section footer -->
+
+			
+
+
+            <footer class="section bottom-bar">
+            
+                <div class="section-container bottom-bar-container">
+                
+                    <div class="section bottom-bar-inner">
+                
+                        <div class="grid">
+                        
+                        
+							 
+                        
+                        
+                                                                                    
+                            
+                            <aside class="col-custom meta-info">
+                            
+                                <span class="copyright">
+                                    <span class="display-inline-block">&copy; 2021 K-Rise Systems, Inc.</span>
+                                    <span class="display-inline-block">All Rights Reserved.</span>
+                                </span> <!-- copyright -->
+                                
+								                                <span class="credits">			<div class="textwidget"><a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-and-conditions/">Terms and Conditions</a> | <a href="/sitemap/">Sitemap</a> | Website by <a href="https://www.cyberoptik.net/" target="_blank" title="CyberOptik, Your Go-To Chicago Web Design Agency" rel="nofollow noopener noreferrer"><img src="/wp-content/themes/optik-theme/images/brand-co.png" /></a></div>
+		</span>
+                                                                
+                            </aside> <!-- col-custom meta-info -->
+                            
+                    
+                        </div> <!-- grid -->
+                    
+                    </div> <!-- section bottom-bar-inner -->
+                
+                </div> <!-- section-container bottom-bar-container -->
+            
+            </footer> <!-- section bottom-bar -->
+
+
+
+        </div> <!-- section site-inner -->
+    
+    </div> <!-- site-container -->
+
+</div> <!-- section site -->
+
+
+
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/gs-logo-slider/gsl-files/js/jquery.bxslider.min.js' id='bxslider-js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/gs-logo-slider/gsl-files/js/jquery.easing.1.3.js' id='jq-easing-js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/gs-logo-slider/gsl-files/js/gs-logo-custom.js' id='jq-cus-js-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/easy-fancybox/js/jquery.fancybox.min.js' id='jquery-fancybox-js'></script>
+<script type='text/javascript' id='jquery-fancybox-js-after'>
+var fb_timeout, fb_opts={'overlayShow':true,'hideOnOverlayClick':true,'showCloseButton':true,'margin':20,'centerOnScroll':true,'enableEscapeButton':true,'autoScale':true };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery('.nofancybox,a.wp-block-file__button,a.pin-it-button,a[href*="pinterest.com/pin/create"],a[href*="facebook.com/share"],a[href*="twitter.com/share"]').addClass('nolightbox');
+/* IMG */
+var fb_IMG_select='a[href*=".jpg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpg"]:not(.nolightbox),a[href*=".jpeg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpeg"]:not(.nolightbox),a[href*=".png"]:not(.nolightbox,li.nolightbox>a),area[href*=".png"]:not(.nolightbox)';
+jQuery(fb_IMG_select).addClass('fancybox image');
+var fb_IMG_sections=jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery');
+fb_IMG_sections.each(function(){jQuery(this).find(fb_IMG_select).attr('rel','gallery-'+fb_IMG_sections.index(this));});
+jQuery('a.fancybox,area.fancybox,li.fancybox a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'transitionIn':'elastic','easingIn':'easeOutBack','transitionOut':'elastic','easingOut':'easeInBack','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false}))});
+/* PDF */
+jQuery('a[href*=".pdf"],area[href*=".pdf"],a[href*=".PDF"],area[href*=".PDF"]').not('.nolightbox,li.nolightbox>a').addClass('fancybox-pdf');
+jQuery('a.fancybox-pdf,area.fancybox-pdf,li.fancybox-pdf a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'type':'iframe','width':'90%','height':'90%','padding':10,'titleShow':false,'titlePosition':'float','titleFromAlt':true,'autoDimensions':false,'scrolling':'no'}))});
+/* YouTube */
+jQuery('a[href*="youtu.be/"],area[href*="youtu.be/"],a[href*="youtube.com/"],area[href*="youtube.com/"]').filter(function(){return this.href.match(/\/(?:youtu\.be|watch\?|embed\/)/);}).not('.nolightbox,li.nolightbox>a').addClass('fancybox-youtube');
+jQuery('a.fancybox-youtube,area.fancybox-youtube,li.fancybox-youtube a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'type':'iframe','width':640,'height':360,'keepRatio':1,'titleShow':false,'titlePosition':'float','titleFromAlt':true,'onStart':function(a,i,o){var splitOn=a[i].href.indexOf("?");var urlParms=(splitOn>-1)?a[i].href.substring(splitOn):"";o.allowfullscreen=(urlParms.indexOf("fs=0")>-1)?false:true;o.href=a[i].href.replace(/https?:\/\/(?:www\.)?youtu(?:\.be\/([^\?]+)\??|be\.com\/watch\?(.*(?=v=))v=([^&]+))(.*)/gi,"https://www.youtube.com/embed/$1$3?$2$4&autoplay=1");}}))});
+/* iFrame */
+jQuery('a.fancybox-iframe,area.fancybox-iframe,li.fancybox-iframe a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'type':'iframe','width':'70%','height':'90%','titleShow':false,'titlePosition':'float','titleFromAlt':true,'allowfullscreen':false}))});};
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+};
+var easy_fancybox_auto=function(){setTimeout(function(){jQuery('#fancybox-auto').trigger('click')},1000);};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+jQuery(easy_fancybox_auto);
+</script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/easy-fancybox/js/jquery.easing.min.js' id='jquery-easing-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-content/plugins/easy-fancybox/js/jquery.mousewheel.min.js' id='jquery-mousewheel-js'></script>
+<script type='text/javascript' src='https://www.krisesystems.com/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+<script type="text/javascript" src="https://lk373.infusionsoft.com/app/webTracking/getTrackingCode"></script>
+</body>
+</html>
