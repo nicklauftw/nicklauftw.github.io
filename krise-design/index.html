@@ -13,7 +13,7 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" href="">
   <!-- Place favicon.ico in the root directory -->
   <!-- Icons, recommend hosting locally -->
   <!-- Using Font Awesome v5.x -->
@@ -34,14 +34,14 @@
           <span class="fas fa-bars"></span>
           <span class="sr-only">Toggle Menu</span>
         </button>
-        <a href="/" class="d-inline-block">
+        <a href="/" class="d-none d-md-inline-block">
           <img src="https://www.krisesystems.com/wp-content/themes/k-rise/images/new-logo.png" alt="K-Rise Systems" class="img-fluid" style="width: 100px; height: auto;"/>
         </a>
       </div>
 
       <div>
         <button type="button" class="btn btn-light">
-          Notifications <span class="badge badge-secondary">3</span>
+          <span class="d-none d-md-inline-block">Notifications</span> <span class="badge badge-secondary">3</span>
         </button>
 
         <!-- App Switcher Toggler -->
@@ -120,7 +120,7 @@
       </section>
 
       <footer class="mt-auto mb-2 small">
-        Powered by <a href="#"><u>EASYProcess™️</u></a>
+        Powered by <a href="#"><u>EASYProcess&trade;</u></a>
         <br>
         <!-- Year shouldn't be hardcoded -->
         © 2021 K-Rise Systems.
@@ -137,7 +137,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid shadow">
               <div class="container">
                 <h1 class="display-4">Test Content</h1>
                 <p class="lead">This is brainstorm, sample, and placeholder content of what could go in this main area</p>
@@ -145,9 +145,10 @@
             </div>
           </div>
         </div>
+        <!-- Refer to Bootstrap docs for grid layout -->
         <div class="row">
-          <div class="col-8">
-            <div class="panel-body bg-white p-2 shadow">
+          <div class="col-md-8 mb-3">
+            <div class="panel-body bg-white p-2 small shadow">
               <form action="">
                 <div class="form-group row">
                   <div class="col-md-2 mob-mrgbot15">
@@ -262,10 +263,10 @@
 
                               <div class="btn-group set-width">
                                 <a href="invite-vendor-admin.html" class="btn-sm btn-link" title="Invite Vendor"><span
-                                    class="btn-icon"><img src="../assets/images/icons/invite-vendor-admin.svg"></span><span
+                                    class="btn-icon"></span><span
                                     class="btn-txt">Invite<br>Vendor</span></a>
                                 <a href="update-this-vendor.html" class="btn-sm btn-link" title="Update this Vendor"><span
-                                    class="btn-icon"><img src="../assets/images/icons/update-this-vendor.svg"></span><span
+                                    class="btn-icon"></span><span
                                     class="btn-txt">Update<br> Vendor</span></a>
                               </div>
 
@@ -297,11 +298,9 @@
                             <td> <span class="text-primary">Process</span></td>
                             <td>
                               <div class="btn-group set-width">
-                                <a href="mailto:abc.com" class="btn-sm btn-link" title="Email Vendor Admin"><span
-                                    class="btn-icon"><img src="../assets/images/icons/email.svg"></span><span class="btn-txt">Email
+                                <a href="mailto:abc.com" class="btn-sm btn-link" title="Email Vendor Admin"><span class="btn-txt">Email
                                     Vendor<br> Admin</span></a>
-                                <a href="#" class="btn-sm btn-link" title="View Vendor Profile"><span class="btn-icon"><img
-                                      src="../assets/images/icons/vendor-profile.svg"></span><span class="btn-txt">View
+                                <a href="#" class="btn-sm btn-link" title="View Vendor Profile"><span class="btn-txt">View
                                     Vendor<br>Profile</span></a>
 
                               </div>
@@ -332,10 +331,10 @@
                             <td>
                               <div class="btn-group set-width">
                                 <a href="invite-vendor-admin.html" class="btn-sm btn-link" title="Invite Vendor"><span
-                                    class="btn-icon"><img src="../assets/images/icons/invite-vendor-admin.svg"></span><span
+                                    class="btn-icon"></span><span
                                     class="btn-txt">Invite<br>Vendor</span></a>
                                 <a href="update-this-vendor.html" class="btn-sm btn-link" title="Update this Vendor"><span
-                                    class="btn-icon"><img src="../assets/images/icons/update-this-vendor.svg"></span><span
+                                    class="btn-icon"></span><span
                                     class="btn-txt">Update<br> Vendor</span></a>
                               </div>
 
@@ -354,7 +353,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card shadow">
               <div class="card-header">
                 Important Information
@@ -374,11 +373,12 @@
     </main>
   </div>
 
-  <!-- Bootstrap JS, host locally -->
+  <!-- Bootstrap JS, host locally instead -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <!-- Toggle the left side menu -->
+  
   <script>
+    // Toggle the left side menu 
     $(document).ready(
       $("#toggleSidebar").click(function() {
         $("#sidebar-nav").toggleClass("collapse");

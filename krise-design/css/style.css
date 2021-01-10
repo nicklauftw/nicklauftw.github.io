@@ -12,18 +12,39 @@ body {
     padding-top: 6rem;
 }
 
+
 .wrapper .sidebar-nav {
+    position: fixed;
+    top: 0;
+    left: -280px;
     width: 280px;
+    height: 100vh;
     background-color: #293042;
     font-size: .875rem;
     color: var(--light);
     overflow-y: auto;
     transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+    z-index: 100;
 }
 
 .wrapper .sidebar-nav.collapse {
-    margin-left: -280px;
-    transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+    left: 0;
+    transition: left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+}
+
+@media (min-width: 576px) {
+    .wrapper .sidebar-nav {
+        position: relative;
+        left: 0;
+        height: auto;
+        transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+    }
+
+    .wrapper .sidebar-nav.collapse {
+        left: auto;
+        margin-left: -280px;
+        transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+    }
 }
 
 .sidebar-nav .bi {
@@ -47,5 +68,4 @@ body {
 .wrapper main {
     display: flex;
     width: 100%;
-    height: 100vh;
 }
