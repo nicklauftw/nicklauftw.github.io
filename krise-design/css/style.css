@@ -52,7 +52,7 @@ body {
 }
 
 .sidebar-nav a {
-    color: var(--white);
+    color: var(--light);
     text-decoration: none;
 }
 
@@ -67,5 +67,6 @@ body {
 
 .wrapper main {
     display: flex;
+    min-height: 100vh;
     width: 100%;
 }

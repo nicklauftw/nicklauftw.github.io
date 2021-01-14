@@ -40,9 +40,51 @@
       </div>
 
       <div>
-        <button type="button" class="btn btn-light">
-          <span class="d-none d-md-inline-block">Notifications</span> <span class="badge badge-secondary">3</span>
-        </button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bell fa-lg"></i> <span class="badge badge-primary rounded-circle ml-n3 align-text-top">3</span>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <h6 class="dropdown-header text-uppercase">Notifications</h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="">
+              <div>
+                <h6 class="font-weight-regular">Approval Request</h6>
+                <div>
+                  Approval Request ID WREQ-10020626 marked as <b class="text-danger text-uppercase">Error</b>
+                </div>
+              </div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <div>
+                <h6 class="font-weight-regular">My Request</h6>
+                <div>
+                  Request ID WREQ-10003985 marked as <b>Completed</b>
+                </div>
+              </div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="">
+              <div>
+                <h6 class="font-weight-regular">My Request</h6>
+                <div>
+                  Request ID WREQ-10004001 marked as <b class="text-danger text-uppercase">Rejected</b>
+                </div>
+              </div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="">
+              <div>
+                <h6 class="font-weight-regular">Approval Request</h6>
+                <div>
+                  <b class="text-uppercase">New</b> Approval Request ID WREQ-10020626
+                </div>
+              </div>
+            </a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </div>
 
         <!-- App Switcher Toggler -->
         <div class="btn-group">
@@ -50,15 +92,43 @@
             <i class="fas fa-th fa-lg"></i>
             <span class="sr-only">App Switcher</span>
           </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="#">App 1</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">App 2</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">App 3</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">App Etc..</a>
-          </div>
+          <div class="dropdown-menu dropdown-menu-right" style="width: 20rem;">
+            <h6 class="dropdown-header border-bottom text-uppercase">Apps</h6>
+            <div class="container">
+              <div class="row mt-3 text-center">
+                <div class="col-4">
+                    <span class="badge bg-primary p-1"><i class="fas fa-rocket fa-3x text-light"></i></span>
+                    <p class="mt-2">App 1</p>
+                </div>
+
+                <div class="col-4">
+                  <span class="badge bg-secondary p-1"><i class="fas fa-rocket fa-3x text-light"></i></span>
+                  <p class="mt-2">App 2</p>
+                </div>
+
+                <div class="col-4">
+                  <span class="badge bg-alert p-1"><i class="fas fa-rocket fa-3x"></i></span>
+                  <p class="mt-2">App 3</p>
+                </div>
+
+                <div class="col-4">
+                  <span class="badge bg-info p-1"><i class="fas fa-rocket fa-3x text-light"></i></span>
+                  <p class="mt-2">App 4</p>
+                </div>
+
+                <div class="col-4">
+                  <span class="badge bg-dark p-1"><i class="fas fa-rocket fa-3x text-light"></i></span>
+                  <p class="mt-2">App 5</p>
+                </div>
+
+                <div class="col-4">
+                  <span class="badge bg-danger p-1"><i class="fas fa-rocket fa-3x text-light"></i></span>
+                  <p class="mt-2">App 6</p>
+                </div>
+
+              </div>
+
+            </div>
         </div>
 
         <!-- User Account Dropdown -->
@@ -67,11 +137,11 @@
             Nick Lau
           </button>
           <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="#"><i class="far fa-user-circle"></i> Account</a>
-            <a class="dropdown-item" href="#"><i class="far fa-question-circle"></i> Help</a>
-            <a class="dropdown-item" href="#"><i class="fas fa-headset"></i> Support</a>
+            <a class="dropdown-item" href="#"><i class="far fa-user-circle mr-2"></i> Account</a>
+            <a class="dropdown-item" href="#"><i class="far fa-question-circle mr-2"></i> Help</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-headset mr-2"></i> Support</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt mr-2"></i> Log Out</a>
           </div>
         </div>
       </div>
@@ -115,7 +185,9 @@
           <i class="fas fa-tasks mr-2"></i><span class="text-uppercase">Requisition</span>
         </h6>
         <ul class="list-unstyled">
-          <li><a href="">Work With Approval Routes</a></li>
+          <li><a href="">Create Requisition</a></li>
+          <li><a href="">Requisition Search</a></li>
+          <li><a href="">Receive POs</a></li>
         </ul>
       </section>
 
@@ -133,7 +205,7 @@
     </nav>
 
     <!-- This is sample and placeholder content of what could go in this main area -->
-    <main>
+    <main class="pb-3">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
