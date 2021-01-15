@@ -16,12 +16,14 @@
   <link rel="apple-touch-icon" href="">
   <!-- Place favicon.ico in the root directory -->
   <!-- Icons, recommend hosting locally -->
-  <!-- Using Font Awesome v5.x -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css">
+  <!-- Using Font Awesome v5.10.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
   <!-- Bootstrap CSS v4.5.x  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Additional custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Will not be needed for Bootstrap v5.x as it'll come built in -->
+  <link rel="stylesheet" href="css/floating-labels.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -228,21 +230,21 @@
         <!-- Refer to Bootstrap docs for grid layout -->
         <div class="row mb-4">
           <div class="col-md-8 mb-3">
-            <div class="panel-body bg-white p-2 small shadow">
+            <div class="panel-body bg-white p-2 shadow">
               <form action="">
                 <div class="form-group row">
-                  <div class="col-md-2 mob-mrgbot15">
+                  <div class="col-md-2">
                     <label class="control-label">Address Book #</label>
 
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  class="form-control">
 
                   </div>
 
-                  <div class="col-md-2 mob-mrgbot15">
+                  <div class="col-md-2">
                     <label class="control-label">Alpha Name</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  class="form-control">
                   </div>
-                  <div class="col-md-3 mob-mrgbot15">
+                  <div class="col-md-3">
                     <label class="control-label">Search Type</label>
                     <select class="form-control">
                       <option selected="selected" value="">All</option>
@@ -257,14 +259,14 @@
 
                     </select>
                   </div>
-                  <div class="col-md-3 mob-mrgbot15">
+                  <div class="col-md-3">
                     <label class="control-label">Vendor Street Address</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  class="form-control">
 
                   </div>
                   <div class="col-md-2">
                     <label class="control-label">Federal Tax ID/SSN</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control"  class="form-control">
                   </div>
                 </div>
 
@@ -435,7 +437,7 @@
 
           <div class="col-md-4">
             <div class="card shadow">
-              <div class="card-header">
+              <div class="card-header text-uppercase">
                 Important Information
               </div>
               <ul class="list-group list-group-flush">
@@ -450,9 +452,50 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col">
-            <div class="card shadow" style="max-width: 24rem;">
+        <div class="row align-items-stretch">
+          <div class="col col-lg-8 col-xl-6">
+            <a class="d-inline-block h3 mb-3 text-body text-uppercase" data-toggle="collapse" href="#collapseMyRequestsFilters" role="button" aria-expanded="false" aria-controls="collapseMyRequestsFilters">
+              My Requests 
+            </a>
+            <div class="collapse show" id="collapseMyRequestsFilters">
+              <form>
+                <div class="form-row align-items-stretch">
+                  <div class="form-label-group col-sm-6 col-md-3">
+                    <input type="text" class="form-control"  id="vendorId" placeholder="Vendor ID">
+                    <label for="vendorId">Vendor ID</label>
+                  </div>
+                  <div class="form-label-group col-sm-6 col-md-3">
+                    <input type="text" class="form-control"  id="departmentNo" placeholder="Department Number">
+                    <label for="departmentNo">Department No</label>
+                  </div>
+                  <div class="form-label-group col-sm-6 col-md-3">
+                    <input type="text" class="form-control"  id="addressBookNo" placeholder="Address Book Number">
+                    <label for="addressBookNo">Address Book No</label>
+                  </div>
+                  <div class="form-label-group col-sm-6 col-md-3">
+                    <input type="text" class="form-control"  id="mailingName" placeholder="Mailing Name">
+                    <label for="mailingName">Mailing Name</label>
+                  </div>
+                  <div class="form-label-group col-sm-6 col-md-3">
+                    <input type="text" class="form-control"  id="vendorType" placeholder="Vendor Type">
+                    <label for="vendorType">Vendor Type</label>
+                  </div>
+                  <div class="form-label-group col-sm-6 col-md-3">
+                    <input type="text" class="form-control"  id="status" placeholder="Status">
+                    <label for="status">Status</label>
+                  </div>
+                  <div class="form-label-group col-2">
+                    <button class="btn btn-primary">Filter</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch">
+          <div class="col col-md-6 col-lg-4">
+            <div class="card shadow small">
               <div class="card-body">
                 <aside class="float-right">
                   <span class="badge badge-success">New</span>
@@ -466,7 +509,7 @@
 
                 <div class="d-flex justify-content-between">
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Address Book #
                     </p>
 
@@ -474,17 +517,19 @@
                   </div>
                   
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0  text-muted">
                       Vendor Type
                     </p>
 
-                    <p class=mb-1>Regular Vendor/Vendor</p>
+                    <p class=mb-1
+                      >Regular Vendor/Vendor
+                    </p>
                   </div>
                 </div>
 
                 <div class="d-flex justify-content-between mt-3">
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Dep #
                     </p>
 
@@ -492,26 +537,48 @@
                   </div>
                   
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Mailing Name
                     </p>
 
                     <p class=mb-1>-</p>
                   </div>
                 </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <div class="w-50">
+                    <p class="mb-0 text-small text-muted">
+                      Created
+                    </p>
+
+                    <p class=mb-1>2018/03/14</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0 text-small text-muted">
+                      Last Action
+                    </p>
+
+                    <p class=mb-1>Over 1 year(s) ago</p>
+                  </div>
+                </div>
               </div>
 
               <footer class="card-footer bg-white">
-                <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-sm btn-outline-secondary mr-2"><i class="far fa-edit"></i> Edit</a>
+                <div class="btn-group float-right">
+                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-edit"></i> Edit</a>
                   <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-file-alt"></i> Audit</a>
                 </div>
               </footer>
 
             </div>
 
-            <div class="card shadow mt-3 mt-lg-0" style="max-width: 24rem;">
-              <div class="card-body">
+          </div>
+
+          <div class="col col-md-6 col-lg-4">
+
+            <div class="card h-100 shadow mt-3 mt-lg-0">
+              <div class="card-body small">
                 <aside class="float-right">
                   <span class="badge badge-success">New</span>
                   <span class="badge badge-success">Completed</span>
@@ -524,7 +591,7 @@
 
                 <div class="d-flex justify-content-between">
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Address Book #
                     </p>
 
@@ -532,7 +599,7 @@
                   </div>
                   
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Vendor Type
                     </p>
 
@@ -542,7 +609,7 @@
 
                 <div class="d-flex justify-content-between mt-3">
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Dep #
                     </p>
 
@@ -550,7 +617,7 @@
                   </div>
                   
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Mailing Name
                     </p>
 
@@ -560,7 +627,7 @@
 
                 <div class="d-flex justify-content-between mt-3">
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Created
                     </p>
 
@@ -568,7 +635,7 @@
                   </div>
                   
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 text-muted">
                       Last Action
                     </p>
 
@@ -578,8 +645,8 @@
               </div>
 
               <footer class="card-footer bg-white">
-                <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-sm btn-outline-secondary mr-2"><i class="far fa-edit"></i> Edit</a>
+                <div class="btn-group float-right">
+                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-edit"></i> Edit</a>
                   <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-file-alt"></i> Audit</a>
                 </div>
               </footer>
@@ -587,6 +654,190 @@
             </div>
           </div>
         </div>
+
+        <section class="mt-4">
+          <div class="row">
+            <div class="col col-lg-8 col-xl-6">
+              <a class="d-inline-block h3 mb-3 text-body text-uppercase">
+                Approval Requests
+              </a>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <!-- Card horizontal w image -->
+            <div class="col col-lg-8">
+              <div class="card shadow">
+                <div class="row no-gutters">
+                  <aside class="col-4">
+                    <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="img-fluid">
+                  </aside>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <aside class="float-right">
+                        <span class="badge badge-primary">New</span>
+                        <span class="badge badge-info">AP Admin</span>
+                      </aside>
+                      <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
+                      <h5 class="card-title">WREQ-10020626</h5>
+      
+                      <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
+                      <h5 class="card-title">WREQ-10004001</h5>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Address Book #
+                          </p>
+      
+                          <p class=mb-1>-</p>
+                        </div>
+                        
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Vendor Type
+                          </p>
+      
+                          <p class=mb-1>Regular Vendor/Vendor</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between mt-3">
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Dep #
+                          </p>
+      
+                          <p class=mb-1>4659128</p>
+                        </div>
+                        
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Mailing Name
+                          </p>
+      
+                          <p class=mb-1>Voice and Video</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between mt-3">
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Created
+                          </p>
+      
+                          <p class=mb-1>2015/01/20</p>
+                        </div>
+
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Last Action
+                          </p>
+      
+                          <p class=mb-1>2015/01/20</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex mt-3">
+                        <div>
+                          <p class="mb-0 text-muted">
+                            Requested By
+                          </p>
+      
+                          <p class=mb-1>gina.mcgovern@foxsports.net</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card vertical w image -->
+            <div class="col-6 col-lg-4 mt-4">
+              <div class="card shadow">
+                <div class="row no-gutters">
+                  <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <aside class="float-right">
+                      <span class="badge badge-primary">New</span>
+                      <span class="badge badge-info">AP Admin</span>
+                    </aside>
+                    <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
+                    <h5 class="card-title">WREQ-10020626</h5>
+    
+                    <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
+                    <h5 class="card-title">WREQ-10004001</h5>
+
+                    <div class="d-flex justify-content-between">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Address Book #
+                        </p>
+    
+                        <p class=mb-1>-</p>
+                      </div>
+                      
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Vendor Type
+                        </p>
+    
+                        <p class=mb-1>Regular Vendor/Vendor</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Dep #
+                        </p>
+    
+                        <p class=mb-1>4659128</p>
+                      </div>
+                      
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Mailing Name
+                        </p>
+    
+                        <p class=mb-1>Voice and Video</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Created
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Last Action
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                      <div>
+                        <p class="mb-0 text-muted">
+                          Requested By
+                        </p>
+    
+                        <p class=mb-1>gina.mcgovern@foxsports.net</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div>
     </main>
   </div>
@@ -643,12 +894,20 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   
   <script>
-    // Toggle the left side menu 
-    $(document).ready(
-      $("#toggleSidebar").click(function() {
-        $("#sidebar-nav").toggleClass("collapse");
-      })
-    );
+    document.addEventListener("DOMContentLoaded", function(){
+      // Handler when the DOM is fully loaded
+      const sidebarNav = document.getElementById("sidebar-nav");
+
+      document.getElementById("toggleSidebar").onclick = function() {
+        sidebarNav.classList.toggle("collapse");
+      };
+
+      // if (window.innerWidth <= 1024 && $("#sidebar-nav").hasClass("collapse")) 
+      $("main").click(function (){
+        if ( (window.innerWidth <= 1024) && sidebarNav.classList.contains("collapse"))
+          sidebarNav.classList.toggle("collapse");
+      });
+    });
   </script>
 </body>
 
