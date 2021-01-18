@@ -231,42 +231,53 @@
 
         <div class="row align-items-stretch">
           <div class="col col-lg-8 col-xl-6">
-            <h3 class="d-inline-block mb-3 text-uppercase">My Requests</h3>
-            <div class="dropdown d-inline-block ml-2 h3">
-              <span class="text-body" type="button" id="dropdownMyRequestsFilters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-chevron-down"></i>
-              </span>
-              <div class="dropdown-menu dropdown-menu-right dropdown-menu-wide bg-light shadow" aria-labelledby="dropdownMyRequestsFilters">
-                <h6 class="dropdown-header text-uppercase">Filter</h6>
-                <form action="" class="px-4 py-3">
-                  <section class="form-label-group" href="#">
-                    <input type="text" class="form-control"  id="vendorId" placeholder="Vendor ID">
-                    <label for="vendorId">Vendor ID</label>
-                  </section>
-                  <section class="form-label-group" href="#">
-                    <input type="text" class="form-control"  id="departmentNo" placeholder="Department Number">
-                    <label for="departmentNo">Department No</label>
-                  </section>
-                  <section class="form-label-group" href="#">
-                    <input type="text" class="form-control"  id="addressBookNo" placeholder="Address Book Number">
-                    <label for="addressBookNo">Address Book No</label>
-                  </section>
-                  <section class="form-label-group" href="#">
-                    <input type="text" class="form-control"  id="mailingName" placeholder="Mailing Name">
-                    <label for="mailingName">Mailing Name</label>
-                  </section>
-                  <section class="form-label-group" href="#">
-                    <input type="text" class="form-control"  id="vendorType" placeholder="Vendor Type">
-                    <label for="vendorType">Vendor Type</label>
-                  </section>
-                  <section class="form-label-group" href="#">
-                    <input type="text" class="form-control"  id="status" placeholder="Status">
-                    <label for="status">Status</label>
-                  </section>
-                  <div class="form-label-group" href="#">
-                    <button class="btn btn-block btn-primary">Filter</button>
-                  </div>
-                </form>
+            <!-- My Requests filters for mobile screens, see modal below this document -->
+            <div class="d-block d-lg-none">
+              <h3 class="d-inline-block mb-3 text-uppercase">My Requests</h3>
+              <button type="button" class="btn h3 btn-light" data-toggle="modal" data-target="#myRequestsFiltersModal">
+                <i class="fas fa-ellipsis-h"></i>
+                <span class="sr-only">Show My Requests Filters Modal</span>
+              </button>
+            </div>
+            <!-- My Requests filters toggle on larger screens, note the Bootstrap responsive classes used -->
+            <div class="d-none d-lg-block">
+              <h3 class="d-inline-block mb-3 text-uppercase">My Requests</h3>
+              <div class="dropdown d-inline-block ml-2 h3">
+                <span class="text-body" type="button" id="dropdownMyRequestsFilters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-wide bg-light shadow" aria-labelledby="dropdownMyRequestsFilters">
+                  <h6 class="dropdown-header text-uppercase">Filter</h6>
+                  <form action="" class="px-4 py-3">
+                    <section class="form-label-group" href="#">
+                      <input type="text" class="form-control"  id="vendorId" placeholder="Vendor ID">
+                      <label for="vendorId">Vendor ID</label>
+                    </section>
+                    <section class="form-label-group" href="#">
+                      <input type="text" class="form-control"  id="departmentNo" placeholder="Department Number">
+                      <label for="departmentNo">Department No</label>
+                    </section>
+                    <section class="form-label-group" href="#">
+                      <input type="text" class="form-control"  id="addressBookNo" placeholder="Address Book Number">
+                      <label for="addressBookNo">Address Book No</label>
+                    </section>
+                    <section class="form-label-group" href="#">
+                      <input type="text" class="form-control"  id="mailingName" placeholder="Mailing Name">
+                      <label for="mailingName">Mailing Name</label>
+                    </section>
+                    <section class="form-label-group" href="#">
+                      <input type="text" class="form-control"  id="vendorType" placeholder="Vendor Type">
+                      <label for="vendorType">Vendor Type</label>
+                    </section>
+                    <section class="form-label-group" href="#">
+                      <input type="text" class="form-control"  id="status" placeholder="Status">
+                      <label for="status">Status</label>
+                    </section>
+                    <div class="form-label-group" href="#">
+                      <button class="btn btn-block btn-primary">Filter</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -443,94 +454,6 @@
             </div>
           </div>
           <div class="row align-items-stretch">
-            <!-- Card horizontal w image -->
-            <!-- <div class="col-full col-lg-8">
-              <div class="card shadow">
-                <div class="row no-gutters">
-                  <aside class="col-4">
-                    <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="img-fluid">
-                  </aside>
-                  <div class="col-8">
-                    <div class="card-body">
-                      <aside class="float-right">
-                        <span class="badge badge-primary">New</span>
-                        <span class="badge badge-info">AP Admin</span>
-                      </aside>
-                      <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
-                      <h5 class="card-title">WREQ-10020626</h5>
-      
-                      <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
-                      <h5 class="card-title">WREQ-10004001</h5>
-
-                      <div class="d-flex justify-content-between">
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Address Book #
-                          </p>
-      
-                          <p class=mb-1>-</p>
-                        </div>
-                        
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Vendor Type
-                          </p>
-      
-                          <p class=mb-1>Regular Vendor/Vendor</p>
-                        </div>
-                      </div>
-
-                      <div class="d-flex justify-content-between mt-3">
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Dep #
-                          </p>
-      
-                          <p class=mb-1>4659128</p>
-                        </div>
-                        
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Mailing Name
-                          </p>
-      
-                          <p class=mb-1>Voice and Video</p>
-                        </div>
-                      </div>
-
-                      <div class="d-flex justify-content-between mt-3">
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Created
-                          </p>
-      
-                          <p class=mb-1>2015/01/20</p>
-                        </div>
-
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Last Action
-                          </p>
-      
-                          <p class=mb-1>2015/01/20</p>
-                        </div>
-                      </div>
-
-                      <div class="d-flex mt-3">
-                        <div>
-                          <p class="mb-0 text-muted">
-                            Requested By
-                          </p>
-      
-                          <p class=mb-1>gina.mcgovern@foxsports.net</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
             <!-- Card vertical w image -->
             <div class="col-12 col-6 col-lg-4 mt-4 mt-md-0 small">
               <div class="card shadow">
@@ -1060,6 +983,52 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Filters Modal, for mobile screens -->
+  <div class="modal fade" id="myRequestsFiltersModal" tabindex="-1" aria-labelledby="myRequestsFiltersModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-uppercase" id="myRequestsFiltersModalLabel">My Requests Filter</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="" class="px-4 py-3">
+            <section class="form-label-group" href="#">
+              <input type="text" class="form-control"  id="vendorId" placeholder="Vendor ID">
+              <label for="vendorId">Vendor ID</label>
+            </section>
+            <section class="form-label-group" href="#">
+              <input type="text" class="form-control"  id="departmentNo" placeholder="Department Number">
+              <label for="departmentNo">Department No</label>
+            </section>
+            <section class="form-label-group" href="#">
+              <input type="text" class="form-control"  id="addressBookNo" placeholder="Address Book Number">
+              <label for="addressBookNo">Address Book No</label>
+            </section>
+            <section class="form-label-group" href="#">
+              <input type="text" class="form-control"  id="mailingName" placeholder="Mailing Name">
+              <label for="mailingName">Mailing Name</label>
+            </section>
+            <section class="form-label-group" href="#">
+              <input type="text" class="form-control"  id="vendorType" placeholder="Vendor Type">
+              <label for="vendorType">Vendor Type</label>
+            </section>
+            <section class="form-label-group" href="#">
+              <input type="text" class="form-control"  id="status" placeholder="Status">
+              <label for="status">Status</label>
+            </section>
+            <div class="form-label-group" href="#">
+              <button class="btn btn-block btn-primary">Filter</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!-- Bootstrap JS, host locally instead -->
