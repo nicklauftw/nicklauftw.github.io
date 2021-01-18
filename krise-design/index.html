@@ -228,8 +228,567 @@
           </div>
         </div>
         <!-- Refer to Bootstrap docs for grid layout -->
-        <div class="row mb-4">
-          <div class="col-md-8 mb-3">
+
+        <div class="row align-items-stretch">
+          <div class="col col-lg-8 col-xl-6">
+            <h3 class="d-inline-block mb-3 text-uppercase">My Requests</h3>
+            <div class="dropdown d-inline-block ml-2 h3">
+              <span class="text-body" type="button" id="dropdownMyRequestsFilters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-wide bg-light shadow" aria-labelledby="dropdownMyRequestsFilters">
+                <h6 class="dropdown-header text-uppercase">Filter</h6>
+                <form action="" class="px-4 py-3">
+                  <section class="form-label-group" href="#">
+                    <input type="text" class="form-control"  id="vendorId" placeholder="Vendor ID">
+                    <label for="vendorId">Vendor ID</label>
+                  </section>
+                  <section class="form-label-group" href="#">
+                    <input type="text" class="form-control"  id="departmentNo" placeholder="Department Number">
+                    <label for="departmentNo">Department No</label>
+                  </section>
+                  <section class="form-label-group" href="#">
+                    <input type="text" class="form-control"  id="addressBookNo" placeholder="Address Book Number">
+                    <label for="addressBookNo">Address Book No</label>
+                  </section>
+                  <section class="form-label-group" href="#">
+                    <input type="text" class="form-control"  id="mailingName" placeholder="Mailing Name">
+                    <label for="mailingName">Mailing Name</label>
+                  </section>
+                  <section class="form-label-group" href="#">
+                    <input type="text" class="form-control"  id="vendorType" placeholder="Vendor Type">
+                    <label for="vendorType">Vendor Type</label>
+                  </section>
+                  <section class="form-label-group" href="#">
+                    <input type="text" class="form-control"  id="status" placeholder="Status">
+                    <label for="status">Status</label>
+                  </section>
+                  <div class="form-label-group" href="#">
+                    <button class="btn btn-block btn-primary">Filter</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch">
+          <div class="col-full col-md-6 col-lg-3 mt-4 mt-md-0">
+            <div class="card shadow small">
+              <div class="card-body">
+                <aside class="float-right">
+                  <span class="badge badge-success">New</span>
+                  <span class="badge badge-info">Draft</span>
+                </aside>
+                <h6 class="card-subtitle mb-0 text-muted">Vendor ID</h6>
+                <h5 class="card-title">VEN-10004803</h5>
+
+                <h6 class="card-subtitle mt-2 mb-0 text-muted">Request ID</h6>
+                <h5 class="card-title">WREQ-10003985</h5>
+
+                <div class="d-flex justify-content-between">
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Address Book #
+                    </p>
+
+                    <p class=mb-1>-</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0  text-muted">
+                      Vendor Type
+                    </p>
+
+                    <p class=mb-1
+                      >Regular Vendor/Vendor
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Dep #
+                    </p>
+
+                    <p class=mb-1>-</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Mailing Name
+                    </p>
+
+                    <p class=mb-1>-</p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <div class="w-50">
+                    <p class="mb-0 text-small text-muted">
+                      Created
+                    </p>
+
+                    <p class=mb-1>2018/03/14</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0 text-small text-muted">
+                      Last Action
+                    </p>
+
+                    <p class=mb-1>Over 1 year(s) ago</p>
+                  </div>
+                </div>
+              </div>
+
+              <footer class="card-footer bg-white">
+                <div class="btn-group float-right">
+                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-edit"></i> Edit</a>
+                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-file-alt"></i> Audit</a>
+                </div>
+              </footer>
+
+            </div>
+
+          </div>
+
+          <div class="col-full col-md-6 col-lg-3 mt-4 mt-md-0">
+
+            <div class="card h-100 shadow">
+              <div class="card-body small">
+                <aside class="float-right">
+                  <span class="badge badge-success">New</span>
+                  <span class="badge badge-success">Completed</span>
+                </aside>
+                <h6 class="card-subtitle mb-0 text-muted">Vendor ID</h6>
+                <h5 class="card-title">VEN-10004821</h5>
+
+                <h6 class="card-subtitle mt-2 mb-0 text-muted">Request ID</h6>
+                <h5 class="card-title">WREQ-10004001</h5>
+
+                <div class="d-flex justify-content-between">
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Address Book #
+                    </p>
+
+                    <p class=mb-1>-</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Vendor Type
+                    </p>
+
+                    <p class=mb-1>Government</p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Dep #
+                    </p>
+
+                    <p class=mb-1>-</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Mailing Name
+                    </p>
+
+                    <p class=mb-1>Tax Payer</p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Created
+                    </p>
+
+                    <p class=mb-1>2015/01/20</p>
+                  </div>
+                  
+                  <div class="w-50">
+                    <p class="mb-0 text-muted">
+                      Last Action
+                    </p>
+
+                    <p class=mb-1>4 days ago</p>
+                  </div>
+                </div>
+              </div>
+
+              <footer class="card-footer bg-white">
+                <div class="btn-group float-right">
+                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-edit"></i> Edit</a>
+                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-file-alt"></i> Audit</a>
+                </div>
+              </footer>
+
+            </div>
+          </div>
+        </div>
+
+        <section class="mt-4">
+          <div class="row">
+            <div class="col col-lg-8 col-xl-6">
+              <a class="d-inline-block h3 mb-3 text-body text-uppercase">
+                Approval Requests
+              </a>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <!-- Card horizontal w image -->
+            <!-- <div class="col-full col-lg-8">
+              <div class="card shadow">
+                <div class="row no-gutters">
+                  <aside class="col-4">
+                    <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="img-fluid">
+                  </aside>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <aside class="float-right">
+                        <span class="badge badge-primary">New</span>
+                        <span class="badge badge-info">AP Admin</span>
+                      </aside>
+                      <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
+                      <h5 class="card-title">WREQ-10020626</h5>
+      
+                      <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
+                      <h5 class="card-title">WREQ-10004001</h5>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Address Book #
+                          </p>
+      
+                          <p class=mb-1>-</p>
+                        </div>
+                        
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Vendor Type
+                          </p>
+      
+                          <p class=mb-1>Regular Vendor/Vendor</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between mt-3">
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Dep #
+                          </p>
+      
+                          <p class=mb-1>4659128</p>
+                        </div>
+                        
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Mailing Name
+                          </p>
+      
+                          <p class=mb-1>Voice and Video</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between mt-3">
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Created
+                          </p>
+      
+                          <p class=mb-1>2015/01/20</p>
+                        </div>
+
+                        <div class="w-50">
+                          <p class="mb-0 text-muted">
+                            Last Action
+                          </p>
+      
+                          <p class=mb-1>2015/01/20</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex mt-3">
+                        <div>
+                          <p class="mb-0 text-muted">
+                            Requested By
+                          </p>
+      
+                          <p class=mb-1>gina.mcgovern@foxsports.net</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Card vertical w image -->
+            <div class="col-12 col-6 col-lg-4 mt-4 mt-md-0 small">
+              <div class="card shadow">
+                <div class="row no-gutters">
+                  <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <aside class="float-right">
+                      <span class="badge badge-primary">New</span>
+                      <span class="badge badge-info">AP Admin</span>
+                    </aside>
+                    <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
+                    <h5 class="card-title">WREQ-10020626</h5>
+    
+                    <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
+                    <h5 class="card-title">WREQ-10004001</h5>
+
+                    <div class="d-flex justify-content-between">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Address Book #
+                        </p>
+    
+                        <p class=mb-1>-</p>
+                      </div>
+                      
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Vendor Type
+                        </p>
+    
+                        <p class=mb-1>Regular Vendor/Vendor</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Dep #
+                        </p>
+    
+                        <p class=mb-1>4659128</p>
+                      </div>
+                      
+                      <div class="w-50">
+       
+                        <p class="mb-0 text-muted">
+                          Mailing Name
+                        </p>
+    
+                        <p class=mb-1>Voice and Video</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Created
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Last Action
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                      <div>
+                        <p class="mb-0 text-muted">
+                          Requested By
+                        </p>
+    
+                        <p class=mb-1>gina.mcgovern@foxsports.net</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-6 col-lg-4 mt-4 mt-md-0 small">
+              <div class="card shadow">
+                <div class="row no-gutters">
+                  <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <aside class="float-right">
+                      <span class="badge badge-primary">New</span>
+                      <span class="badge badge-info">AP Admin</span>
+                    </aside>
+                    <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
+                    <h5 class="card-title">WREQ-10020626</h5>
+    
+                    <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
+                    <h5 class="card-title">WREQ-10004001</h5>
+
+                    <div class="d-flex justify-content-between">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Address Book #
+                        </p>
+    
+                        <p class=mb-1>-</p>
+                      </div>
+                      
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Vendor Type
+                        </p>
+    
+                        <p class=mb-1>Regular Vendor/Vendor</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Dep #
+                        </p>
+    
+                        <p class=mb-1>4659128</p>
+                      </div>
+                      
+                      <div class="w-50">
+       
+                        <p class="mb-0 text-muted">
+                          Mailing Name
+                        </p>
+    
+                        <p class=mb-1>Voice and Video</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Created
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Last Action
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                      <div>
+                        <p class="mb-0 text-muted">
+                          Requested By
+                        </p>
+    
+                        <p class=mb-1>gina.mcgovern@foxsports.net</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-6 col-lg-4 mt-4 mt-md-0 small">
+              <div class="card shadow">
+                <div class="row no-gutters">
+                  <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <aside class="float-right">
+                      <span class="badge badge-primary">New</span>
+                      <span class="badge badge-info">AP Admin</span>
+                    </aside>
+                    <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
+                    <h5 class="card-title">WREQ-10020626</h5>
+    
+                    <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
+                    <h5 class="card-title">WREQ-10004001</h5>
+
+                    <div class="d-flex justify-content-between">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Address Book #
+                        </p>
+    
+                        <p class=mb-1>-</p>
+                      </div>
+                      
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Vendor Type
+                        </p>
+    
+                        <p class=mb-1>Regular Vendor/Vendor</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Dep #
+                        </p>
+    
+                        <p class=mb-1>4659128</p>
+                      </div>
+                      
+                      <div class="w-50">
+       
+                        <p class="mb-0 text-muted">
+                          Mailing Name
+                        </p>
+    
+                        <p class=mb-1>Voice and Video</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Created
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+
+                      <div class="w-50">
+                        <p class="mb-0 text-muted">
+                          Last Action
+                        </p>
+    
+                        <p class=mb-1>2015/01/20</p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex mt-3">
+                      <div>
+                        <p class="mb-0 text-muted">
+                          Requested By
+                        </p>
+    
+                        <p class=mb-1>gina.mcgovern@foxsports.net</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <div class="row mt-5">
+          <div class="col col-md-8 mb-3">
             <div class="panel-body bg-white p-2 shadow">
               <form action="">
                 <div class="form-group row">
@@ -279,7 +838,7 @@
 
                 </div>
 
-                <div class="form-grop row">
+                <div class="form-group row">
                   <div class="col-md-12 col-xs-12">
                     <p class="text-danger"><strong>Maintained By: If a supplier maintained vendor needs to be updated click on the
                         Vendor Admin tab to find the email address for the vendor administrator who maintains this account.</strong>
@@ -451,392 +1010,6 @@
             </div>
           </div>
         </div>
-
-        <div class="row align-items-stretch">
-          <div class="col col-lg-8 col-xl-6">
-            <a class="d-inline-block h3 mb-3 text-body text-uppercase" data-toggle="collapse" href="#collapseMyRequestsFilters" role="button" aria-expanded="false" aria-controls="collapseMyRequestsFilters">
-              My Requests 
-            </a>
-            <div class="collapse show" id="collapseMyRequestsFilters">
-              <form>
-                <div class="form-row align-items-stretch">
-                  <div class="form-label-group col-sm-6 col-md-3">
-                    <input type="text" class="form-control"  id="vendorId" placeholder="Vendor ID">
-                    <label for="vendorId">Vendor ID</label>
-                  </div>
-                  <div class="form-label-group col-sm-6 col-md-3">
-                    <input type="text" class="form-control"  id="departmentNo" placeholder="Department Number">
-                    <label for="departmentNo">Department No</label>
-                  </div>
-                  <div class="form-label-group col-sm-6 col-md-3">
-                    <input type="text" class="form-control"  id="addressBookNo" placeholder="Address Book Number">
-                    <label for="addressBookNo">Address Book No</label>
-                  </div>
-                  <div class="form-label-group col-sm-6 col-md-3">
-                    <input type="text" class="form-control"  id="mailingName" placeholder="Mailing Name">
-                    <label for="mailingName">Mailing Name</label>
-                  </div>
-                  <div class="form-label-group col-sm-6 col-md-3">
-                    <input type="text" class="form-control"  id="vendorType" placeholder="Vendor Type">
-                    <label for="vendorType">Vendor Type</label>
-                  </div>
-                  <div class="form-label-group col-sm-6 col-md-3">
-                    <input type="text" class="form-control"  id="status" placeholder="Status">
-                    <label for="status">Status</label>
-                  </div>
-                  <div class="form-label-group col-2">
-                    <button class="btn btn-primary">Filter</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <div class="row align-items-stretch">
-          <div class="col col-md-6 col-lg-4">
-            <div class="card shadow small">
-              <div class="card-body">
-                <aside class="float-right">
-                  <span class="badge badge-success">New</span>
-                  <span class="badge badge-info">Draft</span>
-                </aside>
-                <h6 class="card-subtitle mb-0 text-muted">Vendor ID</h6>
-                <h5 class="card-title">VEN-10004803</h5>
-
-                <h6 class="card-subtitle mt-2 mb-0 text-muted">Request ID</h6>
-                <h5 class="card-title">WREQ-10003985</h5>
-
-                <div class="d-flex justify-content-between">
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Address Book #
-                    </p>
-
-                    <p class=mb-1>-</p>
-                  </div>
-                  
-                  <div class="w-50">
-                    <p class="mb-0  text-muted">
-                      Vendor Type
-                    </p>
-
-                    <p class=mb-1
-                      >Regular Vendor/Vendor
-                    </p>
-                  </div>
-                </div>
-
-                <div class="d-flex justify-content-between mt-3">
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Dep #
-                    </p>
-
-                    <p class=mb-1>-</p>
-                  </div>
-                  
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Mailing Name
-                    </p>
-
-                    <p class=mb-1>-</p>
-                  </div>
-                </div>
-
-                <div class="d-flex justify-content-between mt-3">
-                  <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
-                      Created
-                    </p>
-
-                    <p class=mb-1>2018/03/14</p>
-                  </div>
-                  
-                  <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
-                      Last Action
-                    </p>
-
-                    <p class=mb-1>Over 1 year(s) ago</p>
-                  </div>
-                </div>
-              </div>
-
-              <footer class="card-footer bg-white">
-                <div class="btn-group float-right">
-                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-edit"></i> Edit</a>
-                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-file-alt"></i> Audit</a>
-                </div>
-              </footer>
-
-            </div>
-
-          </div>
-
-          <div class="col col-md-6 col-lg-4">
-
-            <div class="card h-100 shadow mt-3 mt-lg-0">
-              <div class="card-body small">
-                <aside class="float-right">
-                  <span class="badge badge-success">New</span>
-                  <span class="badge badge-success">Completed</span>
-                </aside>
-                <h6 class="card-subtitle mb-0 text-muted">Vendor ID</h6>
-                <h5 class="card-title">VEN-10004821</h5>
-
-                <h6 class="card-subtitle mt-2 mb-0 text-muted">Request ID</h6>
-                <h5 class="card-title">WREQ-10004001</h5>
-
-                <div class="d-flex justify-content-between">
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Address Book #
-                    </p>
-
-                    <p class=mb-1>-</p>
-                  </div>
-                  
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Vendor Type
-                    </p>
-
-                    <p class=mb-1>Government</p>
-                  </div>
-                </div>
-
-                <div class="d-flex justify-content-between mt-3">
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Dep #
-                    </p>
-
-                    <p class=mb-1>-</p>
-                  </div>
-                  
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Mailing Name
-                    </p>
-
-                    <p class=mb-1>Tax Payer</p>
-                  </div>
-                </div>
-
-                <div class="d-flex justify-content-between mt-3">
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Created
-                    </p>
-
-                    <p class=mb-1>2015/01/20</p>
-                  </div>
-                  
-                  <div class="w-50">
-                    <p class="mb-0 text-muted">
-                      Last Action
-                    </p>
-
-                    <p class=mb-1>4 days ago</p>
-                  </div>
-                </div>
-              </div>
-
-              <footer class="card-footer bg-white">
-                <div class="btn-group float-right">
-                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-edit"></i> Edit</a>
-                  <a href="#" class="btn btn-sm btn-outline-secondary"><i class="far fa-file-alt"></i> Audit</a>
-                </div>
-              </footer>
-
-            </div>
-          </div>
-        </div>
-
-        <section class="mt-4">
-          <div class="row">
-            <div class="col col-lg-8 col-xl-6">
-              <a class="d-inline-block h3 mb-3 text-body text-uppercase">
-                Approval Requests
-              </a>
-            </div>
-          </div>
-          <div class="row align-items-stretch">
-            <!-- Card horizontal w image -->
-            <div class="col col-lg-8">
-              <div class="card shadow">
-                <div class="row no-gutters">
-                  <aside class="col-4">
-                    <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="img-fluid">
-                  </aside>
-                  <div class="col-8">
-                    <div class="card-body">
-                      <aside class="float-right">
-                        <span class="badge badge-primary">New</span>
-                        <span class="badge badge-info">AP Admin</span>
-                      </aside>
-                      <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
-                      <h5 class="card-title">WREQ-10020626</h5>
-      
-                      <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
-                      <h5 class="card-title">WREQ-10004001</h5>
-
-                      <div class="d-flex justify-content-between">
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Address Book #
-                          </p>
-      
-                          <p class=mb-1>-</p>
-                        </div>
-                        
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Vendor Type
-                          </p>
-      
-                          <p class=mb-1>Regular Vendor/Vendor</p>
-                        </div>
-                      </div>
-
-                      <div class="d-flex justify-content-between mt-3">
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Dep #
-                          </p>
-      
-                          <p class=mb-1>4659128</p>
-                        </div>
-                        
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Mailing Name
-                          </p>
-      
-                          <p class=mb-1>Voice and Video</p>
-                        </div>
-                      </div>
-
-                      <div class="d-flex justify-content-between mt-3">
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Created
-                          </p>
-      
-                          <p class=mb-1>2015/01/20</p>
-                        </div>
-
-                        <div class="w-50">
-                          <p class="mb-0 text-muted">
-                            Last Action
-                          </p>
-      
-                          <p class=mb-1>2015/01/20</p>
-                        </div>
-                      </div>
-
-                      <div class="d-flex mt-3">
-                        <div>
-                          <p class="mb-0 text-muted">
-                            Requested By
-                          </p>
-      
-                          <p class=mb-1>gina.mcgovern@foxsports.net</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card vertical w image -->
-            <div class="col-6 col-lg-4 mt-4">
-              <div class="card shadow">
-                <div class="row no-gutters">
-                  <img src="https://via.placeholder.com/500x320?text=Img+Placeholder+Info" alt="Placeholder" class="card-img-top img-fluid">
-                  <div class="card-body">
-                    <aside class="float-right">
-                      <span class="badge badge-primary">New</span>
-                      <span class="badge badge-info">AP Admin</span>
-                    </aside>
-                    <h6 class="card-subtitle mb-0 text-muted">Request ID</h6>
-                    <h5 class="card-title">WREQ-10020626</h5>
-    
-                    <h6 class="card-subtitle mt-2 mb-0 text-muted">VEN-10023174</h6>
-                    <h5 class="card-title">WREQ-10004001</h5>
-
-                    <div class="d-flex justify-content-between">
-                      <div class="w-50">
-                        <p class="mb-0 text-muted">
-                          Address Book #
-                        </p>
-    
-                        <p class=mb-1>-</p>
-                      </div>
-                      
-                      <div class="w-50">
-                        <p class="mb-0 text-muted">
-                          Vendor Type
-                        </p>
-    
-                        <p class=mb-1>Regular Vendor/Vendor</p>
-                      </div>
-                    </div>
-
-                    <div class="d-flex justify-content-between mt-3">
-                      <div class="w-50">
-                        <p class="mb-0 text-muted">
-                          Dep #
-                        </p>
-    
-                        <p class=mb-1>4659128</p>
-                      </div>
-                      
-                      <div class="w-50">
-                        <p class="mb-0 text-muted">
-                          Mailing Name
-                        </p>
-    
-                        <p class=mb-1>Voice and Video</p>
-                      </div>
-                    </div>
-
-                    <div class="d-flex justify-content-between mt-3">
-                      <div class="w-50">
-                        <p class="mb-0 text-muted">
-                          Created
-                        </p>
-    
-                        <p class=mb-1>2015/01/20</p>
-                      </div>
-
-                      <div class="w-50">
-                        <p class="mb-0 text-muted">
-                          Last Action
-                        </p>
-    
-                        <p class=mb-1>2015/01/20</p>
-                      </div>
-                    </div>
-
-                    <div class="d-flex mt-3">
-                      <div>
-                        <p class="mb-0 text-muted">
-                          Requested By
-                        </p>
-    
-                        <p class=mb-1>gina.mcgovern@foxsports.net</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
       </div>
     </main>
