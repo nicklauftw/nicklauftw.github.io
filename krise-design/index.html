@@ -750,13 +750,14 @@
                       <label for="exampleFormControlInput1">Document ID</label>
                       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Document ID">
                     </div>
-                    <div class="form-label-group">
+                    <!-- The .form-floating class must the parent of the input or select -->
+                    <!-- The input or select must be above the label to enable floating label behavior -->
+                    <div class="form-floating">
                       <input type="text" class="form-control" id="exampleFormControlInput2"
                         placeholder="Document ID but floating label">
                       <label for="exampleFormControlInput2">Document ID but floating label</label>
                     </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlSelect1">Example select</label>
+                    <div class="form-floating mt-3">
                       <select class="form-control" id="exampleFormControlSelect1">
                         <option value="" selected disabled>
                           <!-- the selected + disabled attribute is for placeholder purposes-->
@@ -793,11 +794,12 @@
                           WaitingForReceipt
                         </option>
                       </select>
+                      <label for="exampleFormControlSelect1">Example select</label>
                     </div>
                     <!-- Radio -->
                     <!-- name attribute value is for the option -->
                     <!-- input id value needs to match the label for value -->
-                    <h6 class="my-2">Radios</h6>
+                    <h6 class="my-3">Radios</h6>
                     <div class="form-check">
                       <input class="form-check-input" type="radio" name="exampleRadios" id="allOpenRequests"
                         value="option1" checked>
@@ -826,7 +828,7 @@
                         Submitted By Me
                       </label>
                     </div>
-                    <h6 class="my-2">Inline Check Boxes</h6>
+                    <h6 class="my-3">Check Boxes</h6>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
@@ -839,7 +841,7 @@
                         Disabled checkbox
                       </label>
                     </div>
-                    <h6 class="my-2">Check Boxes</h6>
+                    <h6 class="my-3">Inline Check Boxes</h6>
                     <div class="form-check form-check-inline">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
@@ -860,7 +862,7 @@
                       <label for="exampleFormControlInput1">Document ID</label>
                       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Document ID">
                     </div>
-                    <div class="form-label-group">
+                    <div class="form-floating">
                       <input type="text" class="form-control" id="exampleFormControlInput2"
                         placeholder="Document ID but floating label">
                       <label for="exampleFormControlInput2">Document ID but floating label</label>
@@ -869,7 +871,7 @@
                       <!-- Radio -->
                       <!-- name attribute value is for the option -->
                       <!-- input id value needs to match the label for value -->
-                      <h5 class="my-2">Radios</h5>
+                      <h5 class="my-2 d-inline-block">Radios</h5><span class="text-alert">*</span>
                       <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="allOpenRequests"
                           value="option1" checked>
@@ -905,43 +907,45 @@
                           Disabled radio
                         </label>
                       </div>
-                      <label for="exampleFormControlSelect1">Example select</label>
-                      <select class="form-control" id="exampleFormControlSelect1">
-                        <option value="" selected disabled>
-                          <!-- the selected + disabled attribute is for placeholder purposes-->
-                          Select Status
-                        </option>
-                        <option value="BudgetApproval">
-                          BudgetApproval
-                        </option>
-                        <option value="Composing">
-                          Composing
-                        </option>
-                        <option value="JDE">
-                          JDE
-                        </option>
-                        <option value="JDEError">
-                          JDEError
-                        </option>
-                        <option value="PostApprovalEdit">
-                          PostApprovalEdit
-                        </option>
-                        <option value="PreApprovalEdit">
-                          PreApprovalEdit
-                        </option>
-                        <option value="Rejected">
-                          Rejected
-                        </option>
-                        <option value="Start">
-                          Start
-                        </option>
-                        <option value="Terminate">
-                          Terminate
-                        </option>
-                        <option value="WaitingForReceipt">
-                          WaitingForReceipt
-                        </option>
-                      </select>
+                      <div class="form-floating my-3">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="" selected disabled>
+                            the selected + disabled attribute is for placeholder purposes
+                            Select Status
+                          </option>
+                          <option value="BudgetApproval">
+                            BudgetApproval
+                          </option>
+                          <option value="Composing">
+                            Composing
+                          </option>
+                          <option value="JDE">
+                            JDE
+                          </option>
+                          <option value="JDEError">
+                            JDEError
+                          </option>
+                          <option value="PostApprovalEdit">
+                            PostApprovalEdit
+                          </option>
+                          <option value="PreApprovalEdit">
+                            PreApprovalEdit
+                          </option>
+                          <option value="Rejected">
+                            Rejected
+                          </option>
+                          <option value="Start">
+                            Start
+                          </option>
+                          <option value="Terminate">
+                            Terminate
+                          </option>
+                          <option value="WaitingForReceipt">
+                            WaitingForReceipt
+                          </option>
+                        </select>
+                        <label for="exampleFormControlSelect1" class="label-select">Example select</label>
+                      </div>
                     </div>
                   </form>
                 </div>
