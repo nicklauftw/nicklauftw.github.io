@@ -435,11 +435,13 @@
         </nav>
 
         <div class="container">
-            <div class="row">
+            <div class="row no-gutters mb-5">
                 <div class="col">
-                    <div class="jumbotron jumbotron-fluid shadow">
-                        <div class="container">
-                            <h1 class="display-4">Test Content</h1>
+                    <div class="shadow">
+                        <img src="/images/business-photo-cropped.jpg" alt="Business Photo" class="card-img img-fluid"
+                            style="background-size: cover; filter: saturate(var(--value, 2));">
+                        <div class="card-img-overlay px-5 text-light" style="background-color: rgba(0, 0, 0, .5);">
+                            <h1 class="display-4 mt-5">Test Content</h1>
                             <p class="lead">This is brainstorm, sample, and placeholder content of what could go in
                                 this main area
                             </p>
@@ -448,6 +450,38 @@
                 </div>
             </div>
             <!-- Refer to Bootstrap docs for grid layout -->
+
+            <!-- div & section can be used interchangeably but latter is more semantic  -->
+            <section class="row mb-5">
+                <div class="col col-lg-7">
+                    <div class="card h-100 shadow">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                Line Chart of Data
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="lineChartWrapper"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-lg-5">
+                    <div class="card h-100 shadow">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                Accounts Receivable Turnover
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Average AR Turnover: <strong>32 days</strong>
+                            </p>
+                            <canvas id="arChartDonut"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <div class="row align-items-stretch">
                 <div class="col col-lg-8 col-xl-6">
@@ -1559,6 +1593,9 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
 
+    <!-- Chart.js library, host locally instead -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
     <script>
         // Sidenav toggling listener
         document.addEventListener("DOMContentLoaded", function () {
@@ -1571,11 +1608,91 @@
 
             // if (window.innerWidth <= 1024 && $("#sidebar-nav").hasClass("collapse"))
             $("main").click(function () {
-            if ((window.innerWidth <= 1024) && sidebarNav.classList.contains("collapse"))
-                sidebarNav.classList.toggle("collapse");
+                if ((window.innerWidth <= 1024) && sidebarNav.classList.contains("collapse"))
+                    sidebarNav.classList.toggle("collapse");
             });
         });
-        </script>
+
+        // chart examples
+        // chart config
+        var chartColors = [
+            getComputedStyle(document.documentElement).getPropertyValue('--teal'),
+            getComputedStyle(document.documentElement).getPropertyValue('--blue'),
+            getComputedStyle(document.documentElement).getPropertyValue('--purple'),
+            getComputedStyle(document.documentElement).getPropertyValue('--red'),
+            getComputedStyle(document.documentElement).getPropertyValue('--orange'),
+            getComputedStyle(document.documentElement).getPropertyValue('--pink'),
+            getComputedStyle(document.documentElement).getPropertyValue('--green')
+        ];
+
+        // sample line chart data
+        var lineChartExample = document.getElementById("lineChartWrapper");
+        var lineChartDataExample = {
+            labels: ["S", "M", "T", "W", "T", "F", "S"],
+            datasets: [{
+                data: [589, 445, 483, 503, 689, 692, 634],
+                backgroundColor: 'transparent',
+                borderColor: chartColors[0],
+                borderWidth: 4,
+                pointBackgroundColor: chartColors[0]
+            },
+            {
+                data: [639, 465, 493, 478, 589, 632, 674],
+                backgroundColor: chartColors[2],
+                borderColor: chartColors[1],
+                borderWidth: 4,
+                pointBackgroundColor: chartColors[1]
+            }]
+        };
+
+        if (lineChartExample) {
+            new Chart(lineChartExample, {
+                type: 'line',
+                data: lineChartDataExample,
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: false
+                            }
+                        }]
+                    },
+                    legend: {
+                        display: false
+                    }
+                }
+            });
+        }
+
+        // sample donut data 🍩
+        var arDonutData = {
+            labels: ['1-30 Days', '31-60 days', '61-90 days', '90+ Days'],
+            datasets: [
+                {
+                    backgroundColor: chartColors.slice(0, 4),
+                    borderWidth: 0,
+                    data: [54, 31, 6, 9]
+                }
+            ]
+        };
+        var arChartDonut = document.getElementById("arChartDonut");
+        if (arChartDonut) {
+            new Chart(arChartDonut, {
+                type: "pie",
+                data: arDonutData,
+                options: {
+                    cutoutPercentage: 66,
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            pointStyle: 'circle',
+                            usePointStyle: true
+                        }
+                    }
+                }
+            })
+        }
+    </script>
 
 </body>
 
