@@ -30,16 +30,16 @@
 
 <body>
   <header>
-    <nav class="navbar fixed-top bg-light shadow">
+    <nav class="navbar fixed-top bg-info text-light shadow">
       <div>
         <!-- Toggle display of side menu, refer to bottom of document on the JS to trigger it -->
-        <button id="toggleSidebar" class="btn btn-lg">
+        <button id="toggleSidebar" class="btn btn-lg text-light">
           <span class="fas fa-bars"></span>
           <span class="sr-only">Toggle Menu</span>
         </button>
         <a href="/" class="d-none d-md-inline-block">
           <img src="https://www.krisesystems.com/wp-content/themes/k-rise/images/new-logo.png" alt="K-Rise Systems"
-            class="img-fluid" style="width: 100px; height: auto;" />
+            class="img-fluid" style="width: 120px; height: auto;" />
         </a>
       </div>
 
@@ -47,7 +47,7 @@
 
         <!-- Notifications for phone screens, see bottom of doc for modal content -->
         <div class="btn-group d-md-none d-inline-block">
-          <button type="button" class="btn btn-light" data-toggle="modal" data-target="#notificationsModal">
+          <button type="button" class="btn text-light" data-toggle="modal" data-target="#notificationsModal">
             <i class="fas fa-bell fa-lg"></i> <span
               class="badge badge-primary rounded-circle ml-n3 align-text-top">4</span>
           </button>
@@ -55,9 +55,9 @@
 
         <!-- Notifications for larger screens -->
         <div class="btn-group d-none d-md-inline-block">
-          <button type="button" class="btn btn-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-bell fa-lg"></i> <span
-              class="badge badge-primary rounded-circle ml-n3 align-text-top">4</span>
+          <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bell fa-lg text-light"></i> <span
+              class="badge badge-danger rounded-circle ml-n3 align-text-top">4</span>
           </button>
           <div class="dropdown-menu dropdown-menu-right">
             <h6 class="dropdown-header text-uppercase">Notifications</h6>
@@ -103,8 +103,8 @@
 
         <!-- App Language Selector -->
         <div class="btn-group">
-          <button class="btn dropdown-toggle text-uppercase" type="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
+          <button class="btn dropdown-toggle text-uppercase text-light" type="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-language fa-lg"></i>
             <span class="sr-only">Language Selection</span>
           </button>
@@ -125,7 +125,8 @@
 
         <!-- App Switcher Toggler -->
         <div class="btn-group">
-          <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="btn text-light" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
             <i class="fas fa-th fa-lg"></i>
             <span class="sr-only">App Switcher</span>
           </button>
@@ -170,7 +171,7 @@
 
           <!-- User Account Dropdown -->
           <div class="btn-group">
-            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            <button type="button" class="btn dropdown-toggle text-light" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
               Nick Lau
             </button>
@@ -188,7 +189,7 @@
 
   <div class="wrapper">
     <nav id="sidebar-nav" class="sidebar-nav d-flex flex-column px-3">
-      <section class="mt-n2 mb-4">
+      <section class="d-block d-lg-none mt-n2 mb-4">
         <img src="https://www.krisesystems.com/wp-content/themes/k-rise/images/new-logo.png" alt="K-Rise"
           class="img-fluid" style="width: 120px;" />
       </section>
@@ -250,18 +251,70 @@
     <!-- This is sample and placeholder content of what could go in this main area -->
     <main class="pb-3">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row no-gutters mb-5">
           <div class="col">
-            <div class="jumbotron jumbotron-fluid shadow">
-              <div class="container">
-                <h1 class="display-4">Test Content</h1>
-                <p class="lead">This is brainstorm, sample, and placeholder content of what could go in this main area
+            <div class="shadow">
+              <img src="images/business-photo-cropped.jpg" alt="Business Photo" class="card-img img-fluid"
+                style="background-size: cover; filter: saturate(var(--value, 1));">
+              <div class="card-img-overlay px-5 text-light" style="background-color: rgba(0, 0, 0, .33);">
+                <h1 class="display-4 mt-5">Test Content</h1>
+                <p class="lead">This is brainstorm, sample, and placeholder content of what could go in
+                  this main area
                 </p>
               </div>
             </div>
           </div>
         </div>
+
         <!-- Refer to Bootstrap docs for grid layout -->
+
+        <!-- Charts, using chart.js library refer to its docs & /js/sample-chart.js for how this is generated -->
+        <section class="row mb-5">
+          <div class="col col-lg-7">
+            <div class="card h-100 shadow">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  Line Chart of Data
+                </h5>
+              </div>
+              <div class="card-body">
+                <canvas id="lineChartWrapper"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-lg-5 mt-5 mt-lg-0">
+            <div class="card h-100 shadow">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  Accounts Receivable Turnover
+                </h5>
+              </div>
+              <div class="card-body">
+                <p>
+                  Average AR Turnover: <strong>32 days</strong>
+                </p>
+                <canvas id="arChartDonut"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bar Chart example -->
+        <section class="row mb-5">
+          <div class="col-12">
+            <div class="card shadow">
+              <header class="card-header">
+                <h5 class="mb-0">
+                  Bar Chart 📊
+                </h5>
+              </header>
+              <section class="card-body">
+                <canvas id="barChartContainer"></canvas>
+              </section>
+            </div>
+          </div>
+        </section>
 
         <div class="row align-items-stretch">
           <div class="col col-lg-8 col-xl-6">
@@ -1319,6 +1372,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+
+
+  <!-- Chart.js library, host locally instead -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+  <!-- Chart examples -->
+  <script src="js/sample-chart.js"></script>
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {

@@ -452,6 +452,8 @@
             <!-- Refer to Bootstrap docs for grid layout -->
 
             <!-- div & section can be used interchangeably but latter is more semantic  -->
+
+            <!-- Charts, using chart.js library refer to its docs & /js/sample-chart.js for how this is generated -->
             <section class="row mb-5">
                 <div class="col col-lg-7">
                     <div class="card h-100 shadow">
@@ -466,7 +468,7 @@
                     </div>
                 </div>
 
-                <div class="col col-lg-5">
+                <div class="col col-lg-5 mt-5 mt-lg-0">
                     <div class="card h-100 shadow">
                         <div class="card-header">
                             <h5 class="mb-0">
@@ -479,6 +481,22 @@
                             </p>
                             <canvas id="arChartDonut"></canvas>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bar Chart example -->
+            <section class="row mb-5">
+                <div class="col-12">
+                    <div class="card shadow">
+                        <header class="card-header">
+                            <h5 class="mb-0">
+                                Bar Chart 📊
+                            </h5>
+                        </header>
+                        <section class="card-body">
+                            <canvas id="barChartContainer"></canvas>
+                        </section>
                     </div>
                 </div>
             </section>
@@ -1596,6 +1614,9 @@
     <!-- Chart.js library, host locally instead -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
+    <!-- Chart examples -->
+    <script src="js/sample-chart.js"></script>
+
     <script>
         // Sidenav toggling listener
         document.addEventListener("DOMContentLoaded", function () {
@@ -1612,88 +1633,7 @@
                     sidebarNav.classList.toggle("collapse");
             });
         });
-
-        // chart examples
-        // chart config
-        var chartColors = [
-            getComputedStyle(document.documentElement).getPropertyValue('--teal'),
-            getComputedStyle(document.documentElement).getPropertyValue('--blue'),
-            getComputedStyle(document.documentElement).getPropertyValue('--purple'),
-            getComputedStyle(document.documentElement).getPropertyValue('--red'),
-            getComputedStyle(document.documentElement).getPropertyValue('--orange'),
-            getComputedStyle(document.documentElement).getPropertyValue('--pink'),
-            getComputedStyle(document.documentElement).getPropertyValue('--green')
-        ];
-
-        // sample line chart data
-        var lineChartExample = document.getElementById("lineChartWrapper");
-        var lineChartDataExample = {
-            labels: ["S", "M", "T", "W", "T", "F", "S"],
-            datasets: [{
-                data: [589, 445, 483, 503, 689, 692, 634],
-                backgroundColor: 'transparent',
-                borderColor: chartColors[0],
-                borderWidth: 4,
-                pointBackgroundColor: chartColors[0]
-            },
-            {
-                data: [639, 465, 493, 478, 589, 632, 674],
-                backgroundColor: chartColors[2],
-                borderColor: chartColors[1],
-                borderWidth: 4,
-                pointBackgroundColor: chartColors[1]
-            }]
-        };
-
-        if (lineChartExample) {
-            new Chart(lineChartExample, {
-                type: 'line',
-                data: lineChartDataExample,
-                options: {
-                    scales: {
-                        yAxes: [{
-                            ticks: {
-                                beginAtZero: false
-                            }
-                        }]
-                    },
-                    legend: {
-                        display: false
-                    }
-                }
-            });
-        }
-
-        // sample donut data 🍩
-        var arDonutData = {
-            labels: ['1-30 Days', '31-60 days', '61-90 days', '90+ Days'],
-            datasets: [
-                {
-                    backgroundColor: chartColors.slice(0, 4),
-                    borderWidth: 0,
-                    data: [54, 31, 6, 9]
-                }
-            ]
-        };
-        var arChartDonut = document.getElementById("arChartDonut");
-        if (arChartDonut) {
-            new Chart(arChartDonut, {
-                type: "pie",
-                data: arDonutData,
-                options: {
-                    cutoutPercentage: 66,
-                    legend: {
-                        position: 'bottom',
-                        labels: {
-                            pointStyle: 'circle',
-                            usePointStyle: true
-                        }
-                    }
-                }
-            })
-        }
     </script>
-
 </body>
 
 </html>
