@@ -426,7 +426,7 @@
 
                 <div class="d-flex justify-content-between mt-3">
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 small text-muted">
                       Created
                     </p>
 
@@ -434,7 +434,7 @@
                   </div>
 
                   <div class="w-50">
-                    <p class="mb-0 text-small text-muted">
+                    <p class="mb-0 small text-muted">
                       Last Action
                     </p>
 
@@ -1273,786 +1273,637 @@
         <!-- table alternative -->
         <section class="mt-5">
           <div class="row mb-3">
-              <div class="col-12 col-lg-9">
-                  <h4 class="mb-0">Table Alternative</h4>
-                  <p class="mb-0">An alternate display of tabular data in more of a card format</p>
-                  <p class="text-danger">
-                      <strong>
-                          Maintained By: If a supplier maintained vendor needs to be updated
-                          click on the Vendor Admin tab to find the email address for the vendor administrator
-                          who maintains this
-                          account.
-                      </strong>
-                  </p>
-              </div>
-              <div class="col-12 col-lg-3 text-right">
-                  <div class="dropdown">
-                      <button class="btn btn-link text-secondary dropdown-toggle" type="button" id="dropdownMenuTableAltFilter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="col-12 col-lg-9">
+              <h4 class="mb-0">Table Alternative</h4>
+              <p class="mb-0">An alternate display of tabular data in more of a card format</p>
+              <p class="text-danger">
+                <strong>
+                  Maintained By: If a supplier maintained vendor needs to be updated
+                  click on the Vendor Admin tab to find the email address for the vendor administrator
+                  who maintains this
+                  account.
+                </strong>
+              </p>
+            </div>
+            <div class="col-12 col-lg-3 text-right">
+              <div class="dropdown">
+                <button class="btn btn-link text-secondary dropdown-toggle" type="button"
+                  id="dropdownMenuTableAltFilter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Filter
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right shadow" aria-labelledby="dropdownMenuTableAltFilter"
+                  style="width: 24rem;">
+                  <form class="px-4 py-3 small">
+                    <div class="mb-2">
+                      <label class="control-label mb-0">Address Book #</label>
+                      <input type="text" class="form-control" class="form-control">
+                    </div>
+
+                    <div class="mb-2">
+                      <label class="control-label mb-0">Alpha Name</label>
+                      <input type="text" class="form-control" class="form-control">
+                    </div>
+                    <div class="mb-2">
+                      <label class="control-label mb-0">Search Type</label>
+                      <select class="form-control">
+                        <option selected="selected" value="">All</option>
+                        <option value="5I">Inactive Independent Contracto (5I)</option>
+                        <option value="VI">Inactive Vendors (VI)</option>
+                        <option value="5">Independent Contractors (5)</option>
+                        <option value="LI">Location (Inactive) (LI)</option>
+                        <option value="L">Location (L)</option>
+                        <option value="V">Suppliers (V)</option>
+                        <option value="YBI">YardBarker Inactive (YBI)</option>
+                        <option value="YB">Yardbarker (YB)</option>
+
+                      </select>
+                    </div>
+                    <div class="mb-2">
+                      <label class="control-label mb-0">Vendor Street Address</label>
+                      <input type="text" class="form-control" class="form-control">
+
+                    </div>
+                    <div class="mb-2">
+                      <label class="control-label mb-0">Federal Tax ID/SSN</label>
+                      <input type="text" class="form-control" class="form-control">
+                    </div>
+                    <div class="my-2">
+                      <button class="btn btn-block btn-primary">
                         Filter
                       </button>
-                      <ul class="dropdown-menu dropdown-menu-right shadow" aria-labelledby="dropdownMenuTableAltFilter" style="width: 24rem;">
-                          <form class="px-4 py-3 small">
-                              <div class="mb-2">
-                                  <label class="control-label mb-0">Address Book #</label>
-                                  <input type="text" class="form-control" class="form-control">
-                              </div>
-
-                              <div class="mb-2">
-                                  <label class="control-label mb-0">Alpha Name</label>
-                                  <input type="text" class="form-control" class="form-control">
-                              </div>
-                              <div class="mb-2">
-                                  <label class="control-label mb-0">Search Type</label>
-                                  <select class="form-control">
-                                      <option selected="selected" value="">All</option>
-                                      <option value="5I">Inactive Independent Contracto (5I)</option>
-                                      <option value="VI">Inactive Vendors (VI)</option>
-                                      <option value="5">Independent Contractors (5)</option>
-                                      <option value="LI">Location (Inactive) (LI)</option>
-                                      <option value="L">Location (L)</option>
-                                      <option value="V">Suppliers (V)</option>
-                                      <option value="YBI">YardBarker Inactive (YBI)</option>
-                                      <option value="YB">Yardbarker (YB)</option>
-
-                                  </select>
-                              </div>
-                              <div class="mb-2">
-                                  <label class="control-label mb-0">Vendor Street Address</label>
-                                  <input type="text" class="form-control" class="form-control">
-
-                              </div>
-                              <div class="mb-2">
-                                  <label class="control-label mb-0">Federal Tax ID/SSN</label>
-                                  <input type="text" class="form-control" class="form-control">
-                              </div>
-                              <div class="my-2">
-                                  <button class="btn btn-block btn-primary">
-                                      Filter
-                                  </button>
-                              </div>
-                          </form>
-                      </ul>
                     </div>
+                  </form>
+                </ul>
               </div>
+            </div>
           </div>
 
           <div class="row row-cols-1 row-cols-sm-3">
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">Thornal, Hilry</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">Thornal, Hilry</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
-                                          Admin
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX6526
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  In Process
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  28441
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  5l
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      2802 Inridge Dr., Austin TX 78745
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
+                          Admin
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX6526
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      In Process
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      28441
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      5l
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        2802 Inridge Dr., Austin TX 78745
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">National Sports Partners</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">National Sports Partners</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          Invite Vendor
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          Update Vendor
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX5688
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  -
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  351
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  V
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      TEST LINE 1, Los Angeles CA 90074-5434
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          Invite Vendor
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          Update Vendor
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX5688
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      -
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      351
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      V
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        TEST LINE 1, Los Angeles CA 90074-5434
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">Thornal, Hilry</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">Thornal, Hilry</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
-                                          Admin
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX6526
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  In Process
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  28441
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  5l
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      2802 Inridge Dr., Austin TX 78745
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
+                          Admin
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX6526
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      In Process
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      28441
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      5l
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        2802 Inridge Dr., Austin TX 78745
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">National Sports Partners</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">National Sports Partners</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          Invite Vendor
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          Update Vendor
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX5688
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  -
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  351
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  V
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      TEST LINE 1, Los Angeles CA 90074-5434
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          Invite Vendor
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          Update Vendor
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX5688
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      -
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      351
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      V
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        TEST LINE 1, Los Angeles CA 90074-5434
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">Thornal, Hilry</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">Thornal, Hilry</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
-                                          Admin
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX6526
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  In Process
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  28441
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  5l
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      2802 Inridge Dr., Austin TX 78745
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
+                          Admin
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX6526
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      In Process
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      28441
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      5l
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        2802 Inridge Dr., Austin TX 78745
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">National Sports Partners</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">National Sports Partners</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          Invite Vendor
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          Update Vendor
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX5688
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  -
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  351
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  V
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      TEST LINE 1, Los Angeles CA 90074-5434
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          Invite Vendor
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          Update Vendor
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX5688
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      -
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      351
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      V
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        TEST LINE 1, Los Angeles CA 90074-5434
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">Thornal, Hilry</h6>
+                    </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">Thornal, Hilry</h6>
-                              </div>
-
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
-                                          Admin
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX6526
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  In Process
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  28441
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  5l
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      2802 Inridge Dr., Austin TX 78745
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
+                          Admin
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
+                        </a>
                       </div>
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX6526
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      In Process
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      28441
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      5l
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        2802 Inridge Dr., Austin TX 78745
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">National Sports Partners</h6>
-                              </div>
+            <div class="col">
+              <div class="mb-3 p-2 bg-white border">
+                <div class="p-2">
+                  <div class="d-flex justify-content-between row mb-1 no-gutters">
+                    <div>
+                      <h6 class="mb-1">National Sports Partners</h6>
+                    </div>
 
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          Invite Vendor
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          Update Vendor
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX5688
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  -
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  351
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  V
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      TEST LINE 1, Los Angeles CA 90074-5434
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
+                    <div class="btn-group">
+                      <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="sr-only">Expand</span>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
+                        <a class="dropdown-item" href="#">
+                          Invite Vendor
+                        </a>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <a class="dropdown-item" href="#">
+                          Update Vendor
+                        </a>
                       </div>
+                    </div>
                   </div>
-              </div>
-
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">Thornal, Hilry</h6>
-                              </div>
-
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-envelope-square mr-2 text-muted"></i>Email Vendor
-                                          Admin
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          <i class="fas fa-eye mr-2 text-muted"></i>View Vendor Profile
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX6526
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  In Process
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  28441
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  5l
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      2802 Inridge Dr., Austin TX 78745
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Federal Tax ID/SSN:</span>
+                      <br>
+                      XXXXX5688
+                    </div>
+                    <div class="col-12">
+                      <span class="text-muted">Status:</span>
+                      <br>
+                      -
+                    </div>
                   </div>
-              </div>
-
-              <div class="col">
-                  <div class="mb-3 p-2 bg-white border">
-                      <div class="p-2 small">
-                          <div class="d-flex justify-content-between row mb-1 no-gutters">
-                              <div>
-                                  <h6 class="mb-1">National Sports Partners</h6>
-                              </div>
-
-                              <div class="btn-group">
-                                  <a type="button" data-toggle="dropdown" aria-haspopup="true"
-                                      aria-expanded="false">
-                                      <i class="fas fa-ellipsis-h"></i>
-                                      <span class="sr-only">Expand</span>
-                                  </a>
-                                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-dark shadow">
-                                      <a class="dropdown-item" href="#">
-                                          Invite Vendor
-                                      </a>
-                                      <li>
-                                          <hr class="dropdown-divider">
-                                      </li>
-                                      <a class="dropdown-item" href="#">
-                                          Update Vendor
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Federal Tax ID/SSN:</span>
-                                  <br>
-                                  XXXXX5688
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Status:</span>
-                                  <br>
-                                  -
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col-6">
-                                  <span class="text-muted">Address Book #</span>
-                                  <br>
-                                  351
-                              </div>
-                              <div class="col-6">
-                                  <span class="text-muted">Search Type:</span>
-                                  <br>
-                                  V
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Address:</span>
-                                  <p class="mb-0">
-                                      TEST LINE 1, Los Angeles CA 90074-5434
-                                  </p>
-                              </div>
-                          </div>
-                          <div class="row mb-1 no-gutters">
-                              <div class="col">
-                                  <span class="text-muted">Maintained By:</span>
-                                  <p class="mb-0">
-                                      Fox Networks Group
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col-12">
+                      <span class="small text-muted">Address Book #</span>
+                      <br>
+                      351
+                    </div>
+                    <div class="col-12">
+                      <span class="small text-muted">Search Type:</span>
+                      <br>
+                      V
+                    </div>
                   </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Address:</span>
+                      <p class="mb-0">
+                        TEST LINE 1, Los Angeles CA 90074-5434
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row mb-1 no-gutters">
+                    <div class="col">
+                      <span class="small text-muted">Maintained By:</span>
+                      <p class="mb-0">
+                        Fox Networks Group
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+
           </div>
-      </section>
+        </section>
 
       </div>
     </main>
