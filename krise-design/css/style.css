@@ -5,6 +5,7 @@ body {
 
 body {
     background-color: var(--light);
+    overflow-y: scroll;
 }
 
 .wrapper {
@@ -22,7 +23,8 @@ body {
     position: fixed;
     top: 0;
     left: -280px;
-    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
     height: 100vh;
     background-color: #293042;
     font-size: .875rem;
@@ -39,7 +41,7 @@ body {
 
 @media (min-width: 1025px) {
     .wrapper .sidebar-nav {
-        position: relative;
+        position: static;
         left: 0;
         height: auto;
         transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
@@ -69,7 +71,8 @@ body {
 .wrapper main {
     display: flex;
     min-height: 100vh;
-    width: 100%;
+    /* width: 100%; */
+    min-width: 0;
 }
 
 .dropdown-menu-wide {
