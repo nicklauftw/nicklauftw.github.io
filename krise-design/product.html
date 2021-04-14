@@ -507,20 +507,19 @@
 
                     <!--Embroidery -->
                     <section class="mb-3">
-                        <div>
-                            <a href="#" data-toggle="modal" data-target="#addEmbroideryModal">Add Embroidery</a>
+                        <div id="addEmbroideryBtn">
+                            <a href="" data-toggle="modal" data-target="#addEmbroideryModal">Add Embroidery</a>
                         </div>
 
                         <!-- Toggle embroidery edit -->
-                        <div class="d-none">
+                        <div id="editEmbroideryBtn" class="d-none">
                             Embroidery Applied
                             <br>
                             <p class="small text-danger mb-2">
                                 Note: Changing options now will remove Embroidery selected.
                             </p>
                             <div>
-                                <button class="btn btn-sm btn-secondary mr-2">Edit</button>
-                                <button class="btn btn-sm btn-outline-secondary">Remove</button>
+                                <button class="btn btn-link mr-2 pl-0" data-toggle="modal" data-target="#addEmbroideryModal">Edit Embroidery</button>
                             </div>
                         </div>
                     </section>
@@ -790,7 +789,7 @@
 
                 <footer class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary"  data-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-primary" onclick="saveEmbroidery();">Save</button>
                 </footer>
             </div>
         </div>
@@ -921,6 +920,13 @@
                 $("#leftChestComplete").addClass("invisible")
             }
         });
+
+        // Toggle embroidery btn
+        var saveEmbroidery = function () {
+            document.getElementById("addEmbroideryBtn").classList.add("d-none");
+            document.getElementById("editEmbroideryBtn").classList.remove("d-none");
+            $("#addEmbroideryModal").modal("toggle");
+        }
 
         // Toggle placeholder
         $("#right-textline1")[0].addEventListener('input', function (event) {
