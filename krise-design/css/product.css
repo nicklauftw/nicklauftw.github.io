@@ -1,0 +1,26 @@
+body {
+    background: #fff !important;
+}
+
+/* Custom breadcrumb styling */
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+}
+
+.btn-wider {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Color selector for product view */
+
+.color-selector > [active] {
+    border: 3px solid #ea000069;
+    outline: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.color-selector li {
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+}

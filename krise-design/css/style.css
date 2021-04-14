@@ -78,3 +78,8 @@ body {
 .dropdown-menu-wide {
     min-width: 18rem;
 }
+
+/* Limit width of .container-fluid */
+.container-fluid-limit {
+    max-width: 1440px;
+}
