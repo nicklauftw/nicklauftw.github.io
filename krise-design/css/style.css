@@ -83,3 +83,9 @@ body {
 .container-fluid-limit {
     max-width: 1440px;
 }
+
+.card-customer-btn {
+    width: 42px;
+    height: 42px;
+    vertical-align: middle;
+}
