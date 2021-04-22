@@ -85,7 +85,9 @@ body {
 }
 
 .card-customer-btn {
-    width: 42px;
-    height: 42px;
-    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
