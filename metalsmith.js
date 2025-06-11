@@ -88,14 +88,22 @@ function msBuild() {
     )
 
     .use(
-      collections( {
-        blog: {
-          pattern: "blog/*.md",
-          sortBy: "date",
-          reverse: true,
-          limit: 10,
-        },
-      } )
+      collections(
+        {
+          blog: {
+            pattern: "blog/*.md",
+            sortBy: "date",
+            reverse: true,
+            limit: 10,
+          },
+          
+          recentworks: {
+            pattern: 'recentworks/*.md',
+            sortBy: "date",
+            reverse: true
+          }
+        }
+      )
     )
 
     .use( markdown() )

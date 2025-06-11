@@ -1,13 +1,5 @@
-<p align="center">
-  <a href="https://www.metalsmith.io">
-    <img alt="Metalsmith" src="https://www.glinka.co/assets/images/metalsmith-logo-bug.png" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Metalsmith blog starter
-</h1>
-
-Start off your Metalsmith journey with this blog boilerplate. This starter is based on the [Metalsmith bare-bones starter](https://github.com/wernerglinka/metalsmith-bare-bones-starter) but also includes a blog landing page and several "greek" blog posts. Check out a [demo of this starter](https://metalsmith-blog-starter.netlify.app/).
+# Nick Lau's Website
+Built with Metalsmith Starter
 
 ## Quick start
 

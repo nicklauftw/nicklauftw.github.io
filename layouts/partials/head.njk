@@ -13,17 +13,16 @@
 
 <title>{{ seo.title }}</title>
 <meta name="description" content="{{ seo.description }}"/>
-<meta name="author" content="Werner Glinka"/>
+<meta name="author" content="Nick Lau"/>
 <meta name="generator" content="metalsmith"/>
 
 {# Icons #}
-{# generated at https://realfavicongenerator.net/favicon_result?file_id=p1ftthvcomq191neufes1ch51poc6#.YivO7hDMJqs #}
+{# generated at https://realfavicongenerator.net/ #}
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
 <link rel="manifest" href="/assets/icons/site.webmanifest">
-<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileColor" content="#222">
 <meta name="theme-color" content="#ffffff">
 
 {# social tags #}
@@ -42,8 +41,18 @@
 <meta property="og:image" content="{{ seo.socialImage }}"/>
 <meta property="og:updated_time" content=""}/>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7N21S9NPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L7N21S9NPH');
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/prism-styles.css">
 <link rel="stylesheet" href="/assets/styles.css">

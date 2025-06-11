@@ -1,13 +1,10 @@
 {
-  "name": "metalsmith-blog-starter",
+  "name": "nicklau-website",
   "version": "1.0.0",
-  "description": "A simple Metalsmith blog starter",
+  "description": "Nick Lau's Website",
   "type": "module",
-  "keywords": [
-    "metalsmith",
-    "starter"
-  ],
-  "author": "werner@glinka.co",
+  "keywords": [],
+  "author": "nicklauftw@gmail.com",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development DEBUG=@metalsmith* node metalsmith.js",

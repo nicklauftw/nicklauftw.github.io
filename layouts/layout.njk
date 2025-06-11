@@ -7,16 +7,14 @@
 
   <body class="{{ bodyClass }}">
 
-    {% include "partials/header.njk" %}
+    {# {% include "partials/header.njk" %} #}
     
     <main>
-    {% block body %}
-    {# will be replaced by page content #}
-    {% endblock %}
+      {% block body %}
+      {# will be replaced by page content #}
+      {% endblock %}
     </main>
 
-    {% include "partials/footer.njk" %}
-    
   </body>
   
 </html>

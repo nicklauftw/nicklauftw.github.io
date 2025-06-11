@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "label": "Go Home",
+      "label": "Home",
       "url": "/",
       "bodyClass": "home"
     },

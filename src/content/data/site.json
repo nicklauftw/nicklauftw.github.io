@@ -1,16 +1,16 @@
 {
-  "title": "Metalsmith Bare-bones Starter",
-  "description": "Metalsmith Starter with Nunjucks templating",
-  "author": "werner@glinka.co",
-  "siteURL": "https://ms-bare-bone-starter.netlify.app/",
-  "siteOwner": "Werner Glinka",
+  "title": "Nick Lau's Portfolio Website",
+  "description": "Nick Lau's Portfolio Website",
+  "author": "nicklauftw@gmail.com",
+  "siteURL": "http://nicklauftw.com/",
+  "siteOwner": "Nick Lau",
   "validate": {
     "google": "",
     "ms": ""
   },
   "social": {
-    "linkedIn": "",
-    "github": ""
+    "github": "http://github.com/nicklauftw",
+    "bluesky": "https://bsky.app/profile/niclauftw.bsky.social"
   },
   "socialImage": "/assets/images/metalsmith/starter/social.png"
 }
