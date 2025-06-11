@@ -1,0 +1,16 @@
+{
+  "title": "Nick Lau's Portfolio Website",
+  "description": "Nick Lau's Portfolio Website",
+  "author": "nicklauftw@gmail.com",
+  "siteURL": "http://nicklauftw.com/",
+  "siteOwner": "Nick Lau",
+  "validate": {
+    "google": "",
+    "ms": ""
+  },
+  "social": {
+    "github": "http://github.com/nicklauftw",
+    "bluesky": "https://bsky.app/profile/niclauftw.bsky.social"
+  },
+  "socialImage": "/assets/images/metalsmith/starter/social.png"
+}

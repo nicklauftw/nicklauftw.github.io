@@ -7,13 +7,13 @@
     <article>
         {% for workItem in collections.recentworks %}
             <div class="mt-2 mb-5">
-                <a href="/{{ workItem.permalink }}">
-                    <h3 class="mb-3 text-cyan">{{ workItem.projectTitle }}</h2>
-                    <div class="bg-dark-light center-image p-2">
-                        <img class="blog-image" src="{{ workItem.image }}" alt="{{ workItem.blogTitle }}"/>
-                    </div>
-                    {# <div>{{ workItem.excerpt }}</div> #}
-                </a>
+                <h3 class="mb-3 text-cyan">{{ workItem.projectTitle }}</h2>
+                <div class="bg-dark-light center-image p-2">
+                    <img class="blog-image" src="{{ workItem.image }}" alt="{{ workItem.blogTitle }}"/>
+                </div>
+                {# <a href="/{{ workItem.permalink }}">
+                    <div>{{ workItem.excerpt }}</div>
+                </a> #}
             </div>
         {% else %}
             <p class="error-message">No work found</p>

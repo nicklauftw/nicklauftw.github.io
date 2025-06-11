@@ -1,0 +1,305 @@
+/* @font-face {
+  font-family: 'ibm';
+  src: url('fonts/Nouveau_IBM.ttf');
+} */
+
+html {
+  --black: #222;
+  /* --blue: #0000AA; */
+  /* --blue: #0002F5; */
+  /* --blue: #00048e; */
+  --blue: #03254c;
+  --green: #00AA00;
+  --teal: #00AAAA;
+  --cyan: #71EEB8;
+  --yellow: #ffff66;
+  --white: #fff;
+  --light: #cdcdcd;
+  --gray: #bbb;
+  --cyan: rgb(0, 255, 255);
+  --magenta: rgb(255, 0, 255);
+  --yellow: rgb(255, 255, 0);
+  --dark: rgb(35, 35, 35);
+  --dark-light: rgb(50, 50, 50);
+}
+
+body {
+  margin: 0;
+  /* font-size: 1rem; */
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--dark);
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: .25rem 0;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+a, a:visited {
+  color: var(--cyan);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-narrow {
+  max-width: 680px;
+}
+
+.container-wide {
+  max-width: 680px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+header {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.home-link img {
+  width: 60px;
+  height: auto;
+}
+
+/* main menu */
+.main-menu ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.main-menu li {
+  padding: 0 20px;
+}
+.main-menu a {
+  text-decoration: none;
+}
+.main-menu a:hover {
+  text-decoration: underline;
+}
+/* active nav links */
+.home .home,
+.other-page .other-page,
+.blog .blog  {
+  color: #ccc;
+  pointer-events: none;
+  cursor: default;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+img[src$='#full-width'] { 
+  max-width: 100%;
+}
+footer {
+  background: #444;
+  padding: 20px;
+  color: #fff;
+  margin-top: auto;
+}
+/* .blog-image {
+  margin: 40px 0;
+}
+
+pre[class*="language-"] {
+  background: #f3f3f3;
+  border-left: 2px solid #000;
+  position: relative;
+  font-size: 14px;
+}
+pre[class*="language-javascript"]:after {
+  position: absolute;
+  top: 0;
+  right:0;
+  content: "js";
+  padding: 5px;
+  background-color: #f8f8f8;
+}
+.token.operator {
+  background: transparent;
+}
+
+.blog-author {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+.blog-author h2 {
+  margin-top: 0;
+}
+.blog-author > div {
+  display: flex;
+  justify-content: flex-start;
+}
+.blog-author img {
+  width: 150px;
+}
+.blog-author p {
+  padding-left: 50px;
+  font-style: italic;
+}
+.blog-list {
+  list-style: none;
+}
+.blog-list li {
+  padding-bottom: 50px;
+}
+
+.blog-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.blog-list a h2 {
+  display: inline-block;
+  color: #333;
+  border-bottom: 1px solid #333;
+  transition: color 0.5s ease-in-out;
+}
+.blog-list a:hover h2 {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+.blog-list time {
+  display: block;
+}
+
+blockquote {
+  border-left: 4px solid red;
+  background: #f8f8f8;
+  padding: 20px;
+  margin: 0;
+}
+
+.gitter-invite {
+  text-decoration: none;
+  margin-top: 50px;
+  display: block;
+}
+.gitter-invite p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+.gitter-invite img {
+  width: 40px;
+  display: inline-block;
+  margin: 0 10px;
+} */
+
+p {
+  margin: 0lh 0;
+  line-height: 1lh;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-1 {
+  margin-top: .25rem;
+}
+
+.mb-1 {
+  margin-bottom: .25rem;
+}
+
+.mt-2 {
+  margin-top: .5rem;
+}
+
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mt-5 { 
+  margin-top: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-dark-light {
+  background-color: var(--dark-light);
+}
+
+.text-magenta {
+  color: var(--magenta);
+}
+
+.text-cyan {
+  color: var(--cyan);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-image > img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
