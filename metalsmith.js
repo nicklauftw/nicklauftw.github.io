@@ -72,7 +72,7 @@ function msBuild() {
     .clean( true )
     .watch( isProduction ? false : [ "src", "layouts" ] )
     .source( "./src/content" )
-    .destination( "./build" )
+    .destination( "./docs" )
     .metadata( {
       msVersion: dependencies.metalsmith,
       nodeVersion: process.version,
@@ -144,7 +144,7 @@ ms.build( ( err ) => {
       devServer = browserSync.create();
       devServer.init( {
         host: "localhost",
-        server: "./build",
+        server: "./docs",
         port: 3000,
         injectChanges: false,
         reloadThrottle: 0,
