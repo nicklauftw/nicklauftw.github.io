@@ -1,5 +1,5 @@
 ---
-layout: recentwork.njk
+layout: partials/recentwork-list.njk
 
 seo:
   title: Select Recent Work
@@ -7,5 +7,3 @@ seo:
   socialImage: "/assets/images/metalsmith-starter-social.png"
   canonicalOverwrite: ""
 ---
-
-<h2>Select Recent Work</h2>
