@@ -20,7 +20,7 @@ html {
   --magenta: rgb(255, 0, 255);
   --yellow: rgb(255, 255, 0);
   --dark: rgb(35, 35, 35);
-  --dark-light: rgb(50, 50, 50);
+  --dark-light: rgb(60, 60, 60);
 }
 
 body {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .container-wide {
-  max-width: 680px;
+  max-width: 880px;
 }
 
 @media (max-width: 768px) {
@@ -121,6 +121,11 @@ footer {
   color: #fff;
   margin-top: auto;
 }
+
+.d-block {
+  display: block;
+}
+
 /* .blog-image {
   margin: 40px 0;
 }
@@ -214,7 +219,7 @@ blockquote {
 } */
 
 p {
-  margin: 0lh 0;
+  margin: 0 0 .75rem;
   line-height: 1lh;
 }
 
@@ -270,6 +275,10 @@ p {
   padding: 1rem;
 }
 
+.bg-white {
+  background-color: var(--white);
+}
+
 .bg-light {
   background-color: var(--light);
 }
@@ -290,6 +299,10 @@ p {
   color: var(--yellow);
 }
 
+.text-light {
+  color: var(--light);
+}
+
 .text-center {
   text-align: center;
 }
@@ -302,4 +315,21 @@ p {
 
 .center-image > img {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container-work-item {
+  display: grid;
+}
+
+.work-list a {
+  text-decoration: none;
+}
+
+.work-list a > p {
+  color: var(--white);
+}
+
+.work-list a:hover > .center-image {
+  transform: scale(1.02);
+  transition: transform 0.5s;
 }

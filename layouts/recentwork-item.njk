@@ -1,20 +1,68 @@
 {% extends "layout.njk" %}
 
 {% block body %}
-  <div class="container">
-    <article class="mt-4">
-      <div>
+  <div class="container container-narrow">
+      <div class="mt-4">
         <a href="/">
-          ⬅️ Return Home
+          ⬅️ Back
         </a>
       </div>
 
-      <h1 class="mt-3 text-magenta">{{ projectTitle }}</h1>
-
-      <img class="blog-image" src="{{ image }}" alt="{{ projectTitle }}" />
+      <h1 class="mt-3 text-magenta">{{ projectRole }} <span class="text-light">at</span> {{ projectTitle }}</h1>
 
       {{ contents | safe }}
 
-    </article>
+  </div>
+
+  <div class="container container-wide mt-4">
+    {% if image %}
+      <a href="{{ image }}" target="_blank" class="d-block">
+        <picture class="bg-dark-light center-image p-2">
+          <img class="blog-image" src="{{ image }}" alt="" />
+        </picture>
+      </a>
+
+    {% endif %}
+
+    {% if image1 %}
+      <a href="{{ image1 }}" target="_blank" class="d-block mt-4">
+        <picture class="bg-dark-light center-image p-2">
+          <img class="blog-image" src="{{ image1 }}" alt="" />
+        </picture>
+      </a>
+    {% endif %}
+
+    {% if image2 %}
+      <a href="{{ image2 }}" target="_blank" class="d-block mt-4">
+        <picture class="bg-dark-light center-image p-2">
+          <img class="blog-image" src="{{ image2 }}" alt="" />
+        </picture>
+      </a>
+    {% endif %}
+
+    {% if image3 %}
+      <a href="{{ image3 }}" target="_blank" class="d-block mt-4">
+        <picture class="bg-dark-light center-image p-2">
+          <img class="blog-image" src="{{ image3 }}" alt="" />
+        </picture>
+      </a>
+    {% endif %}
+
+    {% if image4 %}
+      <a href="{{ image4 }}" target="_blank" class="d-block mt-4">
+        <picture class="bg-dark-light center-image p-2">
+          <img class="blog-image" src="{{ image4 }}" alt="" />
+        </picture>
+      </a>
+    {% endif %}
+
+  </div>
+
+  <div class="container container-narrow mb-5">
+      <div class="mt-4">
+        <a href="/">
+          ⬅️ Back
+        </a>
+      </div>
   </div>
 {% endblock %}

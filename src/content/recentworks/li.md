@@ -5,22 +5,22 @@ draft: false
 
 seo:
   title: Label Insight
-  description: "Label Insight."
-  socialImage: "https://res.cloudinary.com/glinkaco/image/upload/v1646849499/tgc2022/social_yitz6j.png"
+  description: "Label Insight Project Examples"
+  socialImage: "/assets/images/work-images/li/labelinsight-myproducts.png"
   canonicalOverwrite: ""
 
 projectTitle: "Label Insight"
+projectRole: "Front End Designer & Developer"
 date: "2015-01-01T12:00:00Z"
 author: ""
 image: "/assets/images/work-images/li/labelinsight-myproducts.png"
+image1: "/assets/images/work-images/li/labelinsight-explore.png"
+image2: "/assets/images/work-images/li/labelinsight-tiers.png"
+image3: "/assets/images/work-images/li/labelinsight-login.png"
 excerpt: |-
-  Label Insight
+  Front End Design & Development at Label Insight, data analytics for CPG.
 ---
 
-Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+My role as the Front End Designer/Developer on the product verification team, where the users are presented a grid view of their respective products in different states of the workflow. The workflow process is an individual product that is ready to have its data verified, in progress of verification, verified but needs data fields to be resolved and finally, verified and published.
 
-> Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum.
-
-Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+Before being assigned to the product verification tool, I primarily led the HTML & CSS refactor of the redesign of the Label Insight app and built clickable prototypes of the product verification tool as it matured from an idea that needs to be validated to a full fledged product that could be sold to customers.

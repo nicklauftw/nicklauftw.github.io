@@ -4,24 +4,22 @@ bodyClass: ""
 draft: false
 
 seo:
-  title: Marquette Associates Work
-  description: "Marquette Associates Work"
-  socialImage: "https://res.cloudinary.com/glinkaco/image/upload/v1646849499/tgc2022/social_yitz6j.png"
+  title: Marquette Associates Project
+  description: "Marquette Associates Project Examples" 
+  socialImage: "/assets/images/work-images/marquetteassociates/client-info.png"
   canonicalOverwrite: ""
 
 projectTitle: "Marquette Associates"
+projectRole: "Lead UI/UX Designer"
 date: "2024-01-01T12:00:00Z"
 author: ""
-image: "/assets/images/work-images/marquetteassociates/client-info-cropped.png"
-# image: "/assets/images/work-images/marquetteassociates/investment-vehicle.png"
+image: "/assets/images/work-images/marquetteassociates/client-info.png"
+image1: "/assets/images/work-images/marquetteassociates/task-create.png"
+image2: "/assets/images/work-images/marquetteassociates/new-note.png"
+image3: "/assets/images/work-images/marquetteassociates/investment-vehicle.png"
+image4: "/assets/images/work-images/marquetteassociates/research-layout.png"
 excerpt: |-
-  Marquette Associates
+  Lead UI/UX Designer for an internal tool used by financial analysts, advisors, and consultants for their day to day workflow.
 ---
 
-Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-> Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum.
-
-Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+At Marquette Associates, I led the design of a legacy WinForms app used internally by financial analysts, advisors, and consultants into a modern and intuitive web application. The goal was not just to port over an existing app with a prettier UI but to take the opportunity to improve the UX by designing workflows that are straight forward and logical from user feedback and research, thus reducing errors and increasing productivity. Tools used are Figma for rapid UI layout mockups, Blazor (HTML/CSS) templates for prototyping workflows and completed designs, and Excel for collecting user feedback and analysis.

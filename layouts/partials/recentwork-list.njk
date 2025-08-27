@@ -1,19 +1,19 @@
 <div class="mb-3">
     <div class="container container-narrow">
         <h2 class="text-magenta">
-            Select Recent Work
+            Select Projects &amp; Work
         </h2>
     </div>
     <article>
         {% for workItem in collections.recentworks %}
-            <div class="mt-2 mb-5">
-                <h3 class="mb-3 text-cyan">{{ workItem.projectTitle }}</h3>
-                <div class="bg-dark-light center-image p-2">
-                    <img class="blog-image" src="{{ workItem.image }}" alt="{{ workItem.blogTitle }}"/>
-                </div>
-                {# <a href="/{{ workItem.permalink }}">
-                    <div>{{ workItem.excerpt }}</div>
-                </a> #}
+            <div class="work-list mt-3 mb-5">
+                <a href="/{{ workItem.permalink }}">
+                    <h3 class="mb-1 text-cyan">{{ workItem.projectTitle }}</h3>
+                    <p class="mb-2">{{ workItem.excerpt }}</p>
+                    <picture class="bg-white center-image p-2">
+                        <img src="{{ workItem.image }}" alt=""/>
+                    </picture>
+                </a>
             </div>
         {% else %}
             <p class="error-message">No work found</p>
