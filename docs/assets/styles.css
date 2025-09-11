@@ -1,13 +1,5 @@
-/* @font-face {
-  font-family: 'ibm';
-  src: url('fonts/Nouveau_IBM.ttf');
-} */
-
 html {
   --black: #222;
-  /* --blue: #0000AA; */
-  /* --blue: #0002F5; */
-  /* --blue: #00048e; */
   --blue: #03254c;
   --green: #00AA00;
   --teal: #00AAAA;
@@ -25,7 +17,6 @@ html {
 
 body {
   margin: 0;
-  /* font-size: 1rem; */
   font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Roboto Mono", monospace;
@@ -125,98 +116,6 @@ footer {
 .d-block {
   display: block;
 }
-
-/* .blog-image {
-  margin: 40px 0;
-}
-
-pre[class*="language-"] {
-  background: #f3f3f3;
-  border-left: 2px solid #000;
-  position: relative;
-  font-size: 14px;
-}
-pre[class*="language-javascript"]:after {
-  position: absolute;
-  top: 0;
-  right:0;
-  content: "js";
-  padding: 5px;
-  background-color: #f8f8f8;
-}
-.token.operator {
-  background: transparent;
-}
-
-.blog-author {
-  margin: 40px 0;
-  padding: 20px;
-  background-color: #f8f8f8;
-}
-.blog-author h2 {
-  margin-top: 0;
-}
-.blog-author > div {
-  display: flex;
-  justify-content: flex-start;
-}
-.blog-author img {
-  width: 150px;
-}
-.blog-author p {
-  padding-left: 50px;
-  font-style: italic;
-}
-.blog-list {
-  list-style: none;
-}
-.blog-list li {
-  padding-bottom: 50px;
-}
-
-.blog-list a {
-  text-decoration: none;
-  color: #333;
-}
-
-.blog-list a h2 {
-  display: inline-block;
-  color: #333;
-  border-bottom: 1px solid #333;
-  transition: color 0.5s ease-in-out;
-}
-.blog-list a:hover h2 {
-  color: blue;
-  border-bottom: 1px solid blue;
-}
-.blog-list time {
-  display: block;
-}
-
-blockquote {
-  border-left: 4px solid red;
-  background: #f8f8f8;
-  padding: 20px;
-  margin: 0;
-}
-
-.gitter-invite {
-  text-decoration: none;
-  margin-top: 50px;
-  display: block;
-}
-.gitter-invite p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: #f8f8f8;
-}
-.gitter-invite img {
-  width: 40px;
-  display: inline-block;
-  margin: 0 10px;
-} */
 
 p {
   margin: 0 0 1rem;
